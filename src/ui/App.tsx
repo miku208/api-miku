@@ -2,7 +2,7 @@ import { useEffect, useMemo, useState } from "react";
 import catalogJson from "../data/mikuhost-catalog.json" with { type: "json" };
 
 type CatalogEntry = { category: string; method: string; path: string; alias: string; description: string; params: { name: string; placeholder: string }[] };
-type Plugin = { name: string; slug: string; version: string; type: string; endpoint: string; file: string; status: string; description: string; inputKind?: string; paramExample?: string };
+type Plugin = { name: string; slug: string; version: string; type: string; endpoint: string; file: string; status: string; description: string; inputKind?: string; paramExample?: string; params?: { name: string; description?: string }[] };
 type Log = { timestamp: string; method: string; path: string; status: number; durationMs: number };
 
 const FALLBACK_CATALOG = catalogJson as CatalogEntry[];
@@ -132,7 +132,16 @@ function PluginCard({ p }: { p: Plugin }) {
   return (
     <div className="endpoint-row">
       <span className="method-badge">{p.type === "ai" ? "AI" : "GET"}</span>
-      <div className="row-main"><span className="row-title">{p.name} <span className="muted">v{p.version}</span></span><span className="row-desc">{p.description}</span><span className="row-desc mono">{p.endpoint}</span></div>
+      <div className="row-main">
+        <span className="row-title">{p.name} <span className="muted">v{p.version}</span></span>
+        <span className="row-desc">{p.description}</span>
+        <span className="row-desc mono">{p.endpoint}</span>
+        {p.params && p.params.length > 0 && (
+          <span className="param-chips">
+            {p.params.map((param) => <span className="param-chip mono" key={param.name} title={param.description || param.name}>{param.name}</span>)}
+          </span>
+        )}
+      </div>
       <span className={`status-chip ${active ? "ok" : "bad"}`}>{p.status}</span>
     </div>
   );
@@ -151,15 +160,26 @@ function CoreDocs() {
     ["POST", "/api/mikuhost/sync", "Trigger a catalog re-scrape now"],
     ["ANY", "/api/mikuhost/endpoint/:category/:slug", "Proxy to a MikuHost endpoint, params forwarded 1:1"]
   ];
+  const scraperRows: [string, string, string][] = [
+    ["GET", "/api/scraper/youtube?url=https://youtu.be/dQw4w9WgXcQ&format=mp4", "YouTube downloader — MP3/MP4 (bundled, format=mp3|mp4)"],
+    ["GET", "/api/scraper/capcut?url=https://www.capcut.com/tv2/ZSVEwBgtH/", "CapCut template downloader (bundled)"],
+    ["GET", "/api/scraper/tiktok?url=https://www.tiktok.com/@tiktok/video/7106594312292453675", "TikTok downloader"],
+    ["GET", "/api/scraper/instagram?url=https://www.instagram.com/instagram/", "Instagram downloader (bundled; upstream saat ini Cloudflare-blocked)"]
+  ];
   const samplePath = (p: string) => p.replace(":category", "ai").replace(":slug", "bypass").replace(":name", "google-search").replace("url=…", "url=https://example.com");
-  return <div className="endpoint-list">{rows.map(([m, p, d]) => (
+  const row = ([m, p, d]: [string, string, string]) => (
     <div className="endpoint-row" key={p}>
       <span className="method-badge">{m}</span>
       <div className="row-main"><span className="row-title mono">{p}</span><span className="row-desc">{d}</span></div>
       <CopyButton label="Salin URL" value={`${location.origin}${samplePath(p)}`} />
       <CopyButton label="Salin cURL" value={curlFor(m === "ANY" ? "GET" : m, samplePath(p))} />
     </div>
-  ))}</div>;
+  );
+  return <>
+    <div className="endpoint-list">{rows.map(row)}</div>
+    <div className="section-head" style={{ marginTop: 26 }}><div><span className="eyebrow">SCRAPERS</span><h3>Downloader endpoints</h3></div></div>
+    <div className="endpoint-list">{scraperRows.map(row)}</div>
+  </>;
 }
 
 function CatIndex({ categories, counts, total }: { categories: string[]; counts: Record<string, number>; total: number }) {
