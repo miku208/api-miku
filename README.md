@@ -110,21 +110,41 @@ Example AI response shape:
 }
 ```
 
-## Plugin architecture
+## Plugin architecture (WA-bot style)
 
-Plugins are registered in `src/plugins.ts`. Each plugin exposes metadata and an `execute()` function.
+Plugin **modular per-file**: satu folder `src/plugins/`, satu file per plugin, **auto-load** saat server start.
 
-**Bundled scrapers** (`src/scrapers/`) run in-process with SSRF protection (`assertSafeUrl`), bounded response size, redirect validation, and timeouts — no dependency on an external scraper folder:
+```ts
+// src/plugins/contoh-baru.ts
+type PluginModule = { /* lihat src/plugins/_shared.ts */ };
 
-- `youtube` → `src/scrapers/youtube.ts` (MP3/MP4 via ytmp3 conversion API; param `format=mp3|mp4`)
-- `capcut` → `src/scrapers/capcut.ts` (template metadata + video URL)
-- `instagram` → `src/scrapers/instagram.ts` (bundled but currently `unavailable`: instashadow.com is behind a Cloudflare challenge that blocks datacenter IPs; flip `status` to `"active"` when a working provider is confirmed)
+const plugin = {
+  name: "Contoh Baru",
+  slug: "contoh",
+  type: "scraper",              // "scraper" → /api/scraper/contoh, "ai" → /api/ai/contoh
+  status: "active",
+  description: "...",
+  inputKind: "url",             // url | text | none
+  paramExample: "https://...",
+  execute: async (input) => ({ ... })
+};
+export default plugin;
+```
 
-**External adapters** loaded from `../src/scraper`:
+Aturan loader (`src/plugins.ts`):
+- Semua `.ts`/`.js` di `src/plugins/` otomatis terdaftar; file berawalan `_` (mis. `_shared.ts`) di-skip
+- `endpoint` diturunkan otomatis dari `type` + `slug`
+- File yang gagal load dilaporkan di `GET /api/plugins` → `meta.loadErrors`
 
-- `tiktok` → existing `tiktok.js`
+**Bundled scrapers** (`src/scrapers/`) dipakai plugin di dalam proses dengan SSRF protection (`assertSafeUrl`), size cap, validasi redirect, dan timeout:
 
-The MikuHost ChatGPT endpoint was activated only after a real `GET ?text=` test returned HTTP 200 and a JSON result. Other discovered endpoints are not advertised as working because they returned errors, rate limits, or timed out during verification.
+- `youtube` → `src/scrapers/youtube.ts` (MP3/MP4 via ytmp3; param `format=mp3|mp4`)
+- `capcut` → `src/scrapers/capcut.ts` (metadata template + video URL)
+- `instagram` → `src/scrapers/instagram.ts` (bundled tapi `unavailable`: instashadow.com Cloudflare-blocked dari IP datacenter; ganti `status` ke `"active"` kalau provider sudah jalan)
+
+**External adapters** (dari folder scraper lama, dicari di `SCRAPER_SOURCE`/`../src/scraper`/`scrapers`): `tiktok`, `google-search`, `soundcloud`, `tempmail`.
+
+Plugin AI `mikuhost-chatgpt` diaktifkan hanya setelah tes `GET ?text=` nyata mengembalikan HTTP 200. Endpoint lain yang gagal verifikasi tidak diiklankan aktif.
 
 ## Security
 

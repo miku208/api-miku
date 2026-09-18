@@ -5,7 +5,7 @@ import cors from "@fastify/cors";
 import helmet from "@fastify/helmet";
 import fastifyStatic from "@fastify/static";
 import { z } from "zod";
-import { getPlugin, plugins } from "./plugins.js";
+import { getPlugin, plugins, pluginLoadErrors } from "./plugins.js";
 import { safeFetch } from "./security.js";
 import type { ApiFailure, RequestLog } from "./types.js";
 
@@ -96,7 +96,7 @@ export async function buildApp(): Promise<FastifyInstance> {
   });
 
   app.get("/api/health", async () => ({ success: true, data: { status: "operational", service: "MikuHost-Api", uptime: process.uptime() }, meta: { source: "core", timestamp: new Date().toISOString() } }));
-  app.get("/api/plugins", async () => ({ success: true, data: plugins.map(({ execute: _execute, ...metadata }) => metadata), meta: { source: "plugin-registry", timestamp: new Date().toISOString() } }));
+  app.get("/api/plugins", async () => ({ success: true, data: plugins.map(({ execute: _execute, ...metadata }) => metadata), meta: { source: "plugin-registry", loaded: plugins.length, loadErrors: pluginLoadErrors, timestamp: new Date().toISOString() } }));
   app.get("/api/logs", async () => ({ success: true, data: logs, meta: { source: "request-logger", timestamp: new Date().toISOString() } }));
   app.get("/api/docs", async () => ({ success: true, data: { endpoints: [
     { method: "GET", path: "/api/health", description: "Service health" }, { method: "GET", path: "/api/plugins", description: "Registered plugins" }, { method: "GET", path: "/api/scraper/:name?url=...", description: "Execute a registered public scraper" }, { method: "GET", path: "/api/fetch?url=...", description: "Fetch a public URL with SSRF protection" }, { method: "GET", path: "/api/ai/mikuhost-chatgpt?text=...", description: "Verified MikuHost upstream AI endpoint" }
