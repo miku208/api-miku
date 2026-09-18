@@ -33,7 +33,10 @@ npm run dev
 |---|---|---|
 | GET | `/api/health` | Operational status and uptime |
 | GET | `/api/plugins` | Registered plugin metadata |
-| GET | `/api/scraper/:name?url=https://...` | Execute a registered public scraper |
+| GET | `/api/scraper/youtube?url=https://...&format=mp3\|mp4` | YouTube MP3/MP4 downloader (bundled scraper) |
+| GET | `/api/scraper/capcut?url=https://...` | CapCut template downloader (bundled scraper) |
+| GET | `/api/scraper/instagram?url=https://...` | Instagram downloader (bundled; upstream saat ini diblokir Cloudflare) |
+| GET | `/api/scraper/tiktok?url=https://...` | TikTok downloader |
 | GET | `/api/ai/mikuhost-chatgpt?text=...` | Verified MikuHost upstream adapter |
 | GET | `/api/fetch?url=https://...` | SSRF-protected public fetch |
 | GET | `/api/docs` | Machine-readable endpoint documentation |
@@ -77,6 +80,12 @@ curl "http://localhost:8686/api/fetch?url=https://example.com"
 # Google Search scraper
 curl "http://localhost:8686/api/scraper/google-search?text=hatsune+miku"
 
+# YouTube downloader (MP3 default, atau MP4)
+curl "http://localhost:8686/api/scraper/youtube?url=https://youtu.be/dQw4w9WgXcQ&format=mp4"
+
+# CapCut template downloader
+curl "http://localhost:8686/api/scraper/capcut?url=https://www.capcut.com/tv2/ZSVEwBgtH/"
+
 # TikTok scraper
 curl "http://localhost:8686/api/scraper/tiktok?url=https://www.tiktok.com/@tiktok/video/7106594312292453675"
 ```
@@ -103,11 +112,17 @@ Example AI response shape:
 
 ## Plugin architecture
 
-Plugins are registered in `src/plugins.ts`. Each plugin exposes metadata and an `execute()` function. Existing scraper adapters are loaded from `../src/scraper`:
+Plugins are registered in `src/plugins.ts`. Each plugin exposes metadata and an `execute()` function.
+
+**Bundled scrapers** (`src/scrapers/`) run in-process with SSRF protection (`assertSafeUrl`), bounded response size, redirect validation, and timeouts — no dependency on an external scraper folder:
+
+- `youtube` → `src/scrapers/youtube.ts` (MP3/MP4 via ytmp3 conversion API; param `format=mp3|mp4`)
+- `capcut` → `src/scrapers/capcut.ts` (template metadata + video URL)
+- `instagram` → `src/scrapers/instagram.ts` (bundled but currently `unavailable`: instashadow.com is behind a Cloudflare challenge that blocks datacenter IPs; flip `status` to `"active"` when a working provider is confirmed)
+
+**External adapters** loaded from `../src/scraper`:
 
 - `tiktok` → existing `tiktok.js`
-- `youtube` → existing `youtube.js`
-- `instagram` → existing `ig.js`
 
 The MikuHost ChatGPT endpoint was activated only after a real `GET ?text=` test returned HTTP 200 and a JSON result. Other discovered endpoints are not advertised as working because they returned errors, rate limits, or timed out during verification.
 

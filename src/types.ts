@@ -13,6 +13,7 @@ export interface Plugin<I = unknown, O = unknown> {
   description: string;
   inputKind: PluginInputKind;
   paramExample: string;
+  params?: { name: string; description?: string }[];
   execute(input: I): Promise<O>;
 }
 

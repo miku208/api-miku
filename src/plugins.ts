@@ -1,4 +1,7 @@
 import path from "node:path";
+import { downloadYouTube } from "./scrapers/youtube.js";
+import { downloadInstagram } from "./scrapers/instagram.js";
+import { downloadCapCut } from "./scrapers/capcut.js";
 import type { Plugin, PluginInputKind } from "./types.js";
 
 const scraperSource = process.env.SCRAPER_SOURCE
@@ -25,6 +28,7 @@ interface ScraperDefinition {
   status: "active" | "unavailable";
   inputKind: PluginInputKind;
   paramExample: string;
+  params?: { name: string; description?: string }[];
 }
 
 const scraperDefinitions: ScraperDefinition[] = [
@@ -39,21 +43,42 @@ const scraperDefinitions: ScraperDefinition[] = [
   },
   {
     slug: "youtube",
-    name: "YouTube Scraper",
-    file: "youtube.js",
-    description: "Resolve public YouTube download metadata using the existing adapter.",
-    status: "unavailable",
+    name: "YouTube Downloader",
+    file: "bundled:youtube",
+    description: "Download YouTube video as MP3 audio or MP4 video (bundled scraper).",
+    status: "active",
     inputKind: "url",
-    paramExample: "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+    paramExample: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+    params: [
+      { name: "url", description: "YouTube video or shorts URL" },
+      { name: "format", description: "Output format: mp3 or mp4 (default: mp3)" }
+    ]
   },
   {
     slug: "instagram",
-    name: "Instagram Scraper",
-    file: "ig.js",
-    description: "Extract public Instagram media using the existing adapter.",
+    name: "Instagram Downloader",
+    file: "bundled:instagram",
+    // instashadow.com sits behind a Cloudflare challenge that 403s datacenter IPs;
+    // flip to "active" once a working upstream/provider is confirmed from this host.
+    description: "Download reels, posts, stories, and profile media from Instagram (bundled scraper; upstream currently Cloudflare-blocked).",
     status: "unavailable",
     inputKind: "url",
-    paramExample: "https://www.instagram.com/p/CxKvUxKIxgt/"
+    paramExample: "https://www.instagram.com/p/CxKvUxKIxgt/",
+    params: [
+      { name: "url", description: "Instagram URL (reels, post, story, or username)" }
+    ]
+  },
+  {
+    slug: "capcut",
+    name: "CapCut Downloader",
+    file: "bundled:capcut",
+    description: "Download video template and extract metadata from CapCut (bundled scraper).",
+    status: "active",
+    inputKind: "url",
+    paramExample: "https://www.capcut.com/tv2/ZSVEwBgtH/",
+    params: [
+      { name: "url", description: "CapCut template URL" }
+    ]
   },
   {
     slug: "google-search",
@@ -86,6 +111,29 @@ const scraperDefinitions: ScraperDefinition[] = [
   }
 ];
 
+// Bundled scrapers run in-process (no external scraper folder needed).
+async function executeBundled(slug: string, input: unknown): Promise<unknown> {
+  const record = (input ?? {}) as Record<string, unknown>;
+  const value = extractString(input);
+  switch (slug) {
+    case "youtube": {
+      if (!value) throw new Error("A public URL is required");
+      const format = typeof record.format === "string" ? record.format : "mp3";
+      return downloadYouTube(value, format);
+    }
+    case "instagram": {
+      if (!value || !value.includes("instagram.com")) throw new Error("Parameter 'url' harus berupa link Instagram yang valid");
+      return { url: value, media: await downloadInstagram(value) };
+    }
+    case "capcut": {
+      if (!value || !value.includes("capcut.com")) throw new Error("URL CapCut tidak valid (contoh: https://www.capcut.com/tv2/ZSVEwBgtH/)");
+      return downloadCapCut(value);
+    }
+    default:
+      throw new Error("Scraper not found");
+  }
+}
+
 function extractString(input: unknown): string | undefined {
   if (typeof input === "string") return input;
   if (input && typeof input === "object") {
@@ -108,6 +156,7 @@ export const plugins: Plugin[] = scraperDefinitions.map((definition) => ({
   inputKind: definition.inputKind,
   paramExample: definition.paramExample,
   execute: async (input: unknown) => {
+    if (definition.file.startsWith("bundled:")) return executeBundled(definition.slug, input);
     const value = extractString(input);
     if (definition.inputKind === "url" && !value) throw new Error("A public URL is required");
     if (definition.inputKind === "text" && !value) throw new Error("A search query is required");

@@ -25,10 +25,10 @@ function inputSchemaFor(kind: "url" | "text" | "none") {
       : textSchema;
 }
 
-function inputFor(kind: "url" | "text" | "none", data: unknown): string {
-  if (kind === "none") return "";
-  const record = (data ?? {}) as Record<string, unknown>;
-  return kind === "url" ? String(record.url) : String(record.text);
+// Pass the validated fields plus any extra query params (e.g. youtube format)
+// through to the plugin; bundled scrapers read what they need.
+function pluginInput(data: unknown, query: unknown): Record<string, unknown> {
+  return { ...((data ?? {}) as Record<string, unknown>), ...((query ?? {}) as Record<string, unknown>) };
 }
 
 function failure(code: string, message: string): ApiFailure { return { success: false, error: { code, message } }; }
@@ -149,7 +149,7 @@ export async function buildApp(): Promise<FastifyInstance> {
     const parsed = inputSchemaFor(kind).safeParse(request.query);
     if (!parsed.success) return reply.code(400).send(failure("VALIDATION_ERROR", kind === "url" ? "A valid url query parameter is required" : "A non-empty text query parameter is required"));
     if (plugin.status !== "active") return reply.code(503).send(failure("UPSTREAM_ERROR", "This scraper is currently unavailable and is not advertised as active"));
-    try { const data = await plugin.execute(inputFor(kind, parsed.data)); return { success: true, data, meta: { source: plugin.slug, timestamp: new Date().toISOString() } }; }
+    try { const data = await plugin.execute(pluginInput(parsed.data, request.query)); return { success: true, data, meta: { source: plugin.slug, timestamp: new Date().toISOString() } }; }
     catch (error) { const message = error instanceof Error ? error.message : "Scraper unavailable"; const timeout = error instanceof Error && error.name === "TimeoutError"; return reply.code(timeout ? 504 : 502).send(failure(timeout ? "UPSTREAM_TIMEOUT" : "UPSTREAM_ERROR", message)); }
   });
 
