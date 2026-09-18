@@ -1,4 +1,5 @@
 import { useEffect, useMemo, useState } from "react";
+import { Landing } from "./Landing.js";
 import catalogJson from "../data/mikuhost-catalog.json" with { type: "json" };
 
 type CatalogEntry = { category: string; method: string; path: string; alias: string; description: string; params: { name: string; placeholder: string }[] };
@@ -24,6 +25,7 @@ function curlFor(method: string, path: string): string {
 }
 
 export function App() {
+  const [entered, setEntered] = useState(() => location.hash.replace(/^#\/?/, "") !== "");
   const [route, setRoute] = useState(() => (location.hash.replace(/^#\/?/, "") || "overview"));
   const [catalog, setCatalog] = useState<CatalogEntry[]>(FALLBACK_CATALOG);
   const [lastSync, setLastSync] = useState<any>(null);
@@ -31,7 +33,11 @@ export function App() {
   const [logs, setLogs] = useState<Log[]>([]);
   const [health, setHealth] = useState<any>();
   useEffect(() => {
-    const onHash = () => setRoute(location.hash.replace(/^#\/?/, "") || "overview");
+    const onHash = () => {
+      const next = location.hash.replace(/^#\/?/, "");
+      if (next) setEntered(true);
+      setRoute(next || "overview");
+    };
     window.addEventListener("hashchange", onHash);
     return () => window.removeEventListener("hashchange", onHash);
   }, []);
@@ -48,6 +54,8 @@ export function App() {
 
   const categories = useMemo(() => [...new Set(catalog.map((e) => e.category))].sort(), [catalog]);
   const counts = useMemo(() => { const m: Record<string, number> = {}; catalog.forEach((e) => (m[e.category] = (m[e.category] || 0) + 1)); return m; }, [catalog]);
+
+  if (!entered) return <Landing onEnter={() => { setEntered(true); setRoute("overview"); try { history.replaceState(null, "", "#/overview"); } catch { /* ignore */ } }} />;
 
   return (
     <div className="shell">

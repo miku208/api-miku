@@ -1,1 +1,1 @@
-{"name":"MikuHost-Api","short_name":"MikuHost","start_url":"/","display":"standalone","background_color":"#0b1120","theme_color":"#0b1120","icons":[{"src":"/favicon.svg","sizes":"any","type":"image/svg+xml"}]}
+{"name":"MikuHost-Api","short_name":"MikuHost","start_url":"/","display":"standalone","background_color":"#0b1120","theme_color":"#0b1120","icons":[{"src":"/logo.jpg","sizes":"720x720","type":"image/jpeg","purpose":"any"},{"src":"/logo.jpg","sizes":"720x720","type":"image/jpeg","purpose":"maskable"}]}
