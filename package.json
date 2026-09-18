@@ -1,0 +1,39 @@
+{
+  "name": "mikuhost-api",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Production-ready modular REST API platform for MikuHost.",
+  "scripts": {
+    "dev": "tsx watch src/server.ts",
+    "typecheck": "tsc --noEmit",
+    "build": "tsc && vite build",
+    "start": "node dist/server.js",
+    "pm2:start": "pm2 start ecosystem.config.cjs",
+    "pm2:restart": "pm2 restart mikuhost-api",
+    "pm2:stop": "pm2 stop mikuhost-api",
+    "pm2:logs": "pm2 logs mikuhost-api",
+    "test": "node --test --import tsx test/**/*.test.ts"
+  },
+  "dependencies": {
+    "@fastify/cors": "^11.0.0",
+    "@fastify/helmet": "^13.0.2",
+    "@fastify/static": "^10.1.4",
+    "axios": "^1.7.9",
+    "fastify": "^5.6.0",
+    "qs": "^6.13.0",
+    "react": "^19.1.1",
+    "react-dom": "^19.1.1",
+    "zod": "^4.1.5"
+  },
+  "devDependencies": {
+    "@types/node": "^24.3.0",
+    "@types/react": "^19.1.12",
+    "@types/react-dom": "^19.1.9",
+    "@vitejs/plugin-react": "^5.0.2",
+    "tailwindcss": "^4.1.13",
+    "tsx": "^4.20.5",
+    "typescript": "^5.9.2",
+    "vite": "^7.1.5"
+  }
+}

@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://api-mikuhost.biz.id/sitemap.xml

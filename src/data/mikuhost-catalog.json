@@ -1,0 +1,5039 @@
+[
+ {
+  "category": "ai",
+  "method": "GET",
+  "path": "/ai/alisia",
+  "alias": "Alisia",
+  "description": "Chat dengan Alisia AI",
+  "params": [
+   {
+    "name": "text",
+    "placeholder": "Halo apa kabar..."
+   }
+  ]
+ },
+ {
+  "category": "ai",
+  "method": "GET",
+  "path": "/ai/andisearch",
+  "alias": "Andisearch",
+  "description": "Chat dengan Andisearch AI",
+  "params": [
+   {
+    "name": "text",
+    "placeholder": "Halo apa kabar..."
+   }
+  ]
+ },
+ {
+  "category": "ai",
+  "method": "GET",
+  "path": "/ai/bypass",
+  "alias": "Bypass",
+  "description": "AI content humanizer / bypass AI detection",
+  "params": [
+   {
+    "name": "text",
+    "placeholder": "The old lighthouse stood sentinel on the rugged cliff..."
+   }
+  ]
+ },
+ {
+  "category": "ai",
+  "method": "GET",
+  "path": "/ai/chatgpt",
+  "alias": "ChatGPT",
+  "description": "Chat dengan ChatGPT",
+  "params": [
+   {
+    "name": "text",
+    "placeholder": "Halo apa kabar..."
+   }
+  ]
+ },
+ {
+  "category": "ai",
+  "method": "GET",
+  "path": "/ai/claude",
+  "alias": "Claude",
+  "description": "Chat dengan Claude AI",
+  "params": [
+   {
+    "name": "text",
+    "placeholder": "Halo apa kabar..."
+   }
+  ]
+ },
+ {
+  "category": "ai",
+  "method": "GET",
+  "path": "/ai/copilot",
+  "alias": "Copilot",
+  "description": "Chat dengan Copilot AI",
+  "params": [
+   {
+    "name": "text",
+    "placeholder": "Halo apa kabar..."
+   }
+  ]
+ },
+ {
+  "category": "ai",
+  "method": "GET",
+  "path": "/ai/deepimg",
+  "alias": "DeepImg",
+  "description": "Generate images using DeepImg AI",
+  "params": [
+   {
+    "name": "prompt",
+    "placeholder": "A futuristic Sundanese warrior with neon kris, 8k resolution, cinematic lighting"
+   }
+  ]
+ },
+ {
+  "category": "ai",
+  "method": "GET",
+  "path": "/ai/deepsearch",
+  "alias": "DeepSearch",
+  "description": "Deep search with AI research assistant",
+  "params": [
+   {
+    "name": "text",
+    "placeholder": "Halo apa kabar..."
+   }
+  ]
+ },
+ {
+  "category": "ai",
+  "method": "GET",
+  "path": "/ai/deepseek",
+  "alias": "DeepSeek",
+  "description": "Chat dengan DeepSeek",
+  "params": [
+   {
+    "name": "text",
+    "placeholder": "Halo apa kabar..."
+   }
+  ]
+ },
+ {
+  "category": "ai",
+  "method": "GET",
+  "path": "/ai/dgaf",
+  "alias": "Dgaf",
+  "description": "Chat with Dgaf AI",
+  "params": [
+   {
+    "name": "text",
+    "placeholder": "Halo apa kabar..."
+   }
+  ]
+ },
+ {
+  "category": "ai",
+  "method": "GET",
+  "path": "/ai/dolphin",
+  "alias": "Dolphin",
+  "description": "Berkomunikasi dengan Dolphin AI dengan pilihan template",
+  "params": [
+   {
+    "name": "text",
+    "placeholder": "Halo apa kabar..."
+   }
+  ]
+ },
+ {
+  "category": "ai",
+  "method": "GET",
+  "path": "/ai/dracin-tts",
+  "alias": "Dracin Tts",
+  "description": "Membuat suara dracin",
+  "params": [
+   {
+    "name": "text",
+    "placeholder": "Halo apa kabar..."
+   },
+   {
+    "name": "speed",
+    "placeholder": "1.0"
+   },
+   {
+    "name": "volume",
+    "placeholder": "0.3"
+   },
+   {
+    "name": "music",
+    "placeholder": "true"
+   }
+  ]
+ },
+ {
+  "category": "ai",
+  "method": "GET",
+  "path": "/ai/dreamanalyze",
+  "alias": "Dream Analyze",
+  "description": "Analisis mimpi dengan AI",
+  "params": [
+   {
+    "name": "text",
+    "placeholder": "I had a dream about flying over a futuristic city with greenery."
+   }
+  ]
+ },
+ {
+  "category": "ai",
+  "method": "GET",
+  "path": "/ai/duck",
+  "alias": "Duck",
+  "description": "Chat with Duck AI",
+  "params": [
+   {
+    "name": "text",
+    "placeholder": "Halo apa kabar..."
+   }
+  ]
+ },
+ {
+  "category": "ai",
+  "method": "GET",
+  "path": "/ai/epsilon",
+  "alias": "Epsilon",
+  "description": "Academic paper search with Epsilon AI",
+  "params": [
+   {
+    "name": "text",
+    "placeholder": "JAKARTA"
+   }
+  ]
+ },
+ {
+  "category": "ai",
+  "method": "GET",
+  "path": "/ai/felo",
+  "alias": "Felo",
+  "description": "Chat dengan Felo AI",
+  "params": [
+   {
+    "name": "text",
+    "placeholder": "Halo apa kabar..."
+   }
+  ]
+ },
+ {
+  "category": "ai",
+  "method": "GET",
+  "path": "/ai/v1/flux",
+  "alias": "Flux v1",
+  "description": "Generate images using Flux AI v1",
+  "params": [
+   {
+    "name": "prompt",
+    "placeholder": "Neon Samurai"
+   }
+  ]
+ },
+ {
+  "category": "ai",
+  "method": "GET",
+  "path": "/ai/gemini-tts",
+  "alias": "Gemini Tts",
+  "description": "buat pembicaraan menggunakan gemini tts",
+  "params": [
+   {
+    "name": "text",
+    "placeholder": "Halo apa kabar..."
+   }
+  ]
+ },
+ {
+  "category": "ai",
+  "method": "GET",
+  "path": "/ai/gemini",
+  "alias": "Gemini",
+  "description": "Chat dengan Google Gemini",
+  "params": [
+   {
+    "name": "text",
+    "placeholder": "Halo apa kabar..."
+   },
+   {
+    "name": "session_id",
+    "placeholder": "eyJjb29raWUiOiJOSUQ9NTMyPWVMZmtRUWZ5VmlSU2plZG16UzVSSjlTM1ZP..."
+   }
+  ]
+ },
+ {
+  "category": "ai",
+  "method": "GET",
+  "path": "/ai/gitagpt",
+  "alias": "GitaGPT",
+  "description": "Tanya jawab dengan GitaGPT",
+  "params": [
+   {
+    "name": "text",
+    "placeholder": "Halo apa kabar..."
+   }
+  ]
+ },
+ {
+  "category": "ai",
+  "method": "GET",
+  "path": "/ai/glm",
+  "alias": "GLM",
+  "description": "Chat with GLM AI",
+  "params": [
+   {
+    "name": "text",
+    "placeholder": "Halo apa kabar..."
+   }
+  ]
+ },
+ {
+  "category": "ai",
+  "method": "GET",
+  "path": "/ai/gpt-3.5-turbo",
+  "alias": "GPT-3.5 Turbo",
+  "description": "Chat with GPT-3.5 Turbo",
+  "params": [
+   {
+    "name": "text",
+    "placeholder": "Halo apa kabar..."
+   }
+  ]
+ },
+ {
+  "category": "ai",
+  "method": "POST",
+  "path": "/ai/gptimage",
+  "alias": "GPT Image",
+  "description": "Edit image using GPT Vision with prompt",
+  "params": [
+   {
+    "name": "image",
+    "placeholder": ""
+   },
+   {
+    "name": "param",
+    "placeholder": "Change skin color to black..."
+   }
+  ]
+ },
+ {
+  "category": "ai",
+  "method": "GET",
+  "path": "/ai/grammarcheck",
+  "alias": "Grammar Check",
+  "description": "Check and correct grammar",
+  "params": [
+   {
+    "name": "text",
+    "placeholder": "The old lighthouse stood sentinel on the rugged cliff."
+   }
+  ]
+ },
+ {
+  "category": "ai",
+  "method": "GET",
+  "path": "/ai/hammer",
+  "alias": "Hammer",
+  "description": "Chat dengan Hammer AI",
+  "params": [
+   {
+    "name": "text",
+    "placeholder": "Halo apa kabar..."
+   }
+  ]
+ },
+ {
+  "category": "ai",
+  "method": "GET",
+  "path": "/ai/heck",
+  "alias": "Heck",
+  "description": "Chat dengan Heck AI menggunakan berbagai model",
+  "params": [
+   {
+    "name": "text",
+    "placeholder": "Halo apa kabar..."
+   }
+  ]
+ },
+ {
+  "category": "ai",
+  "method": "GET",
+  "path": "/ai/ideogram",
+  "alias": "Ideogram",
+  "description": "Generate image using Ideogram AI",
+  "params": [
+   {
+    "name": "prompt",
+    "placeholder": "a beautiful sunset"
+   }
+  ]
+ },
+ {
+  "category": "ai",
+  "method": "GET",
+  "path": "/ai/image2prompt",
+  "alias": "Image to Prompt",
+  "description": "Generate prompt from image",
+  "params": [
+   {
+    "name": "url",
+    "placeholder": "https://files.catbox.moe/xxx.jpg"
+   }
+  ]
+ },
+ {
+  "category": "ai",
+  "method": "GET",
+  "path": "/ai/islamcity",
+  "alias": "IslamCity",
+  "description": "Chat dengan IslamCity AI tentang keislaman",
+  "params": [
+   {
+    "name": "text",
+    "placeholder": "Halo apa kabar..."
+   }
+  ]
+ },
+ {
+  "category": "ai",
+  "method": "GET",
+  "path": "/ai/islamic",
+  "alias": "Islamic",
+  "description": "Chat dengan AI tentang Islam",
+  "params": [
+   {
+    "name": "text",
+    "placeholder": "Apa itu Islam?"
+   }
+  ]
+ },
+ {
+  "category": "ai",
+  "method": "GET",
+  "path": "/ai/jadve",
+  "alias": "Jadve",
+  "description": "Chat with Jadve AI",
+  "params": [
+   {
+    "name": "text",
+    "placeholder": "Halo apa kabar..."
+   }
+  ]
+ },
+ {
+  "category": "ai",
+  "method": "GET",
+  "path": "/ai/jeeves",
+  "alias": "Jeeves",
+  "description": "Chat dengan Jeeves AI",
+  "params": [
+   {
+    "name": "text",
+    "placeholder": "Halo apa kabar..."
+   }
+  ]
+ },
+ {
+  "category": "ai",
+  "method": "GET",
+  "path": "/ai/kimi",
+  "alias": "Kimi",
+  "description": "Chat dengan Kimi AI",
+  "params": [
+   {
+    "name": "text",
+    "placeholder": "Halo apa kabar..."
+   }
+  ]
+ },
+ {
+  "category": "ai",
+  "method": "GET",
+  "path": "/ai/llamacoder",
+  "alias": "LlamaCoder",
+  "description": "Chat with LlamaCoder AI",
+  "params": [
+   {
+    "name": "text",
+    "placeholder": "A landing page for a SaaS business that includes a clear value proposition in a prominent hero section, concise feature overviews, testimonials, pricing, and a clear call-to-action button leading to a free trial or demo..."
+   }
+  ]
+ },
+ {
+  "category": "ai",
+  "method": "GET",
+  "path": "/ai/lumin",
+  "alias": "Lumin",
+  "description": "Chat dengan Lumin AI",
+  "params": [
+   {
+    "name": "text",
+    "placeholder": "Halo apa kabar..."
+   }
+  ]
+ },
+ {
+  "category": "ai",
+  "method": "GET",
+  "path": "/ai/magicstudio",
+  "alias": "MagicStudio",
+  "description": "Generate AI images menggunakan MagicStudio",
+  "params": [
+   {
+    "name": "prompt",
+    "placeholder": "a beautiful sunset over mountains"
+   }
+  ]
+ },
+ {
+  "category": "ai",
+  "method": "GET",
+  "path": "/ai/mathgpt",
+  "alias": "MathGPT",
+  "description": "Chat with MathGPT for mathematical problems",
+  "params": [
+   {
+    "name": "text",
+    "placeholder": "Halo apa kabar..."
+   }
+  ]
+ },
+ {
+  "category": "ai",
+  "method": "GET",
+  "path": "/ai/monica",
+  "alias": "Monica",
+  "description": "Chat dengan Monica AI",
+  "params": [
+   {
+    "name": "text",
+    "placeholder": "Halo apa kabar..."
+   }
+  ]
+ },
+ {
+  "category": "ai",
+  "method": "GET",
+  "path": "/ai/morphic",
+  "alias": "Morphic",
+  "description": "Chat dengan Morphic AI",
+  "params": [
+   {
+    "name": "text",
+    "placeholder": "Halo apa kabar..."
+   }
+  ]
+ },
+ {
+  "category": "ai",
+  "method": "GET",
+  "path": "/ai/muslim",
+  "alias": "Muslim",
+  "description": "Chat dengan AI tentang Islam",
+  "params": [
+   {
+    "name": "text",
+    "placeholder": "Apa itu Islam?"
+   }
+  ]
+ },
+ {
+  "category": "ai",
+  "method": "POST",
+  "path": "/ai/nanobanana",
+  "alias": "Nano Banana",
+  "description": "Modify image based on prompt using Nano Banana model.",
+  "params": [
+   {
+    "name": "image",
+    "placeholder": ""
+   },
+   {
+    "name": "param",
+    "placeholder": "ganti nama logonya ke mikuhost"
+   }
+  ]
+ },
+ {
+  "category": "ai",
+  "method": "GET",
+  "path": "/ai/Natalie",
+  "alias": "Natalie",
+  "description": "Chat with Natalie AI",
+  "params": [
+   {
+    "name": "text",
+    "placeholder": "Halo apa kabar..."
+   }
+  ]
+ },
+ {
+  "category": "ai",
+  "method": "GET",
+  "path": "/ai/mikuhost",
+  "alias": "MikuHost",
+  "description": "Chat dengan MikuHost AI",
+  "params": [
+   {
+    "name": "text",
+    "placeholder": "Halo apa kabar..."
+   }
+  ]
+ },
+ {
+  "category": "ai",
+  "method": "GET",
+  "path": "/ai/nowtech",
+  "alias": "Nowtech",
+  "description": "Chat dengan Nowtech AI",
+  "params": [
+   {
+    "name": "text",
+    "placeholder": "Halo apa kabar..."
+   }
+  ]
+ },
+ {
+  "category": "ai",
+  "method": "GET",
+  "path": "/ai/openai",
+  "alias": "OpenAI",
+  "description": "Chat dengan OpenAI",
+  "params": [
+   {
+    "name": "text",
+    "placeholder": "Halo apa kabar..."
+   }
+  ]
+ },
+ {
+  "category": "ai",
+  "method": "GET",
+  "path": "/ai/overchat",
+  "alias": "Overchat",
+  "description": "Chat dengan Overchat AI",
+  "params": [
+   {
+    "name": "text",
+    "placeholder": "Halo apa kabar..."
+   }
+  ]
+ },
+ {
+  "category": "ai",
+  "method": "GET",
+  "path": "/ai/perplexity",
+  "alias": "Perplexity",
+  "description": "Chat dengan Perplexity AI",
+  "params": [
+   {
+    "name": "text",
+    "placeholder": "Halo apa kabar..."
+   }
+  ]
+ },
+ {
+  "category": "ai",
+  "method": "GET",
+  "path": "/ai/powerbrain",
+  "alias": "PowerBrain",
+  "description": "Chat dengan PowerBrain AI",
+  "params": [
+   {
+    "name": "text",
+    "placeholder": "Halo apa kabar..."
+   }
+  ]
+ },
+ {
+  "category": "ai",
+  "method": "GET",
+  "path": "/ai/public",
+  "alias": "Public",
+  "description": "Chat dengan Public AI",
+  "params": [
+   {
+    "name": "text",
+    "placeholder": "Halo apa kabar..."
+   }
+  ]
+ },
+ {
+  "category": "ai",
+  "method": "GET",
+  "path": "/ai/quillbot",
+  "alias": "QuillBot",
+  "description": "Chat with QuillBot AI",
+  "params": [
+   {
+    "name": "text",
+    "placeholder": "Halo apa kabar..."
+   }
+  ]
+ },
+ {
+  "category": "ai",
+  "method": "GET",
+  "path": "/ai/riple",
+  "alias": "Riple",
+  "description": "Chat dengan Riple AI",
+  "params": [
+   {
+    "name": "text",
+    "placeholder": "Halo apa kabar..."
+   }
+  ]
+ },
+ {
+  "category": "ai",
+  "method": "GET",
+  "path": "/ai/schoolhub",
+  "alias": "SchoolHub",
+  "description": "Chat with SchoolHub AI for students",
+  "params": [
+   {
+    "name": "text",
+    "placeholder": "Halo apa kabar..."
+   }
+  ]
+ },
+ {
+  "category": "ai",
+  "method": "GET",
+  "path": "/ai/screnapp",
+  "alias": "Scren App",
+  "description": "Chat dengan ai screnapp",
+  "params": [
+   {
+    "name": "url_image",
+    "placeholder": "https://files.catbox.moe/xxx.jpg"
+   },
+   {
+    "name": "text",
+    "placeholder": "Ini siapa..."
+   }
+  ]
+ },
+ {
+  "category": "ai",
+  "method": "GET",
+  "path": "/ai/simisimi",
+  "alias": "Simi Simi",
+  "description": "Chat dengan Simi Simi",
+  "params": [
+   {
+    "name": "text",
+    "placeholder": "Halo apa kabar..."
+   }
+  ]
+ },
+ {
+  "category": "ai",
+  "method": "GET",
+  "path": "/ai/skole",
+  "alias": "Skole",
+  "description": "Chat dengan Skole AI untuk pembelajaran",
+  "params": [
+   {
+    "name": "text",
+    "placeholder": "Halo apa kabar..."
+   }
+  ]
+ },
+ {
+  "category": "ai",
+  "method": "GET",
+  "path": "/ai/sologo",
+  "alias": "Sologo",
+  "description": "Generate logo",
+  "params": [
+   {
+    "name": "prompt",
+    "placeholder": "coffee shop logo"
+   }
+  ]
+ },
+ {
+  "category": "ai",
+  "method": "GET",
+  "path": "/ai/story",
+  "alias": "Story",
+  "description": "Generate stories from prompts with customizable parameters",
+  "params": [
+   {
+    "name": "prompt",
+    "placeholder": "A little boy and a cat"
+   }
+  ]
+ },
+ {
+  "category": "ai",
+  "method": "GET",
+  "path": "/ai/suno",
+  "alias": "Suno",
+  "description": "Generate music using Suno AI",
+  "params": [
+   {
+    "name": "prompt",
+    "placeholder": "Lagu pop ceria dengan irama gitar akustik"
+   }
+  ]
+ },
+ {
+  "category": "ai",
+  "method": "GET",
+  "path": "/ai/v1/text2image",
+  "alias": "Text to Image v1",
+  "description": "Generate image from text prompt using AI",
+  "params": [
+   {
+    "name": "prompt",
+    "placeholder": "cat in the sky"
+   }
+  ]
+ },
+ {
+  "category": "ai",
+  "method": "GET",
+  "path": "/ai/turbochat",
+  "alias": "TurboChat",
+  "description": "Chat dengan TurboChat AI",
+  "params": [
+   {
+    "name": "text",
+    "placeholder": "Halo apa kabar..."
+   }
+  ]
+ },
+ {
+  "category": "ai",
+  "method": "GET",
+  "path": "/ai/turboseek",
+  "alias": "Turboseek",
+  "description": "Chat dengan Turboseek AI",
+  "params": [
+   {
+    "name": "text",
+    "placeholder": "Halo apa kabar..."
+   }
+  ]
+ },
+ {
+  "category": "ai",
+  "method": "GET",
+  "path": "/ai/venice",
+  "alias": "Venice",
+  "description": "Chat dengan Venice AI",
+  "params": [
+   {
+    "name": "text",
+    "placeholder": "Halo apa kabar..."
+   }
+  ]
+ },
+ {
+  "category": "ai",
+  "method": "GET",
+  "path": "/ai/veo2",
+  "alias": "Veo2",
+  "description": "Generate video menggunakan Veo2 AI",
+  "params": [
+   {
+    "name": "prompt",
+    "placeholder": "a cat sleeping on a sofa"
+   }
+  ]
+ },
+ {
+  "category": "ai",
+  "method": "GET",
+  "path": "/ai/veo3",
+  "alias": "Veo3",
+  "description": "Generate video from image and prompt using Veo3 AI",
+  "params": [
+   {
+    "name": "prompt",
+    "placeholder": "Add motion effects"
+   },
+   {
+    "name": "image_url",
+    "placeholder": "https://files.catbox.moe/xxx.jpg"
+   }
+  ]
+ },
+ {
+  "category": "ai",
+  "method": "GET",
+  "path": "/ai/vider",
+  "alias": "Vider",
+  "description": "Generate images menggunakan Vider AI",
+  "params": [
+   {
+    "name": "prompt",
+    "placeholder": "A beautiful sunset over the ocean"
+   }
+  ]
+ },
+ {
+  "category": "ai",
+  "method": "GET",
+  "path": "/ai/webpilot",
+  "alias": "Webpilot",
+  "description": "Search and get AI-generated answers with sources from the web",
+  "params": [
+   {
+    "name": "text",
+    "placeholder": "berita terbaru yang ada di Indonesia"
+   }
+  ]
+ },
+ {
+  "category": "ai",
+  "method": "GET",
+  "path": "/ai/writecream",
+  "alias": "Write Cream",
+  "description": "Chat dengan Write Creame AI.",
+  "params": [
+   {
+    "name": "text",
+    "placeholder": "Halo apa kabar..."
+   },
+   {
+    "name": "logic",
+    "placeholder": "Kamu adalah asisten yang baik"
+   }
+  ]
+ },
+ {
+  "category": "ai",
+  "method": "GET",
+  "path": "/ai/writecreamimg",
+  "alias": "Write Cream Image",
+  "description": "Generate AI images with various aspect ratios",
+  "params": [
+   {
+    "name": "prompt",
+    "placeholder": "girl wearing glasses"
+   }
+  ]
+ },
+ {
+  "category": "ai",
+  "method": "GET",
+  "path": "/ai/zahanat",
+  "alias": "Zahanat",
+  "description": "Chat dengan Zahanat AI",
+  "params": [
+   {
+    "name": "text",
+    "placeholder": "Halo apa kabar..."
+   }
+  ]
+ },
+ {
+  "category": "anime",
+  "method": "GET",
+  "path": "/anime/anichin/detail",
+  "alias": "Anichin Detail",
+  "description": "Get detailed information about an anime including episodes, batch downloads, and metadata",
+  "params": [
+   {
+    "name": "url",
+    "placeholder": "https://anichin.cafe/seri/100-000-years-of-refining-qi/"
+   }
+  ]
+ },
+ {
+  "category": "anime",
+  "method": "GET",
+  "path": "/anime/anichin/genre",
+  "alias": "Anichin by Genre",
+  "description": "Get anime list filtered by genre",
+  "params": [
+   {
+    "name": "slug",
+    "placeholder": "action"
+   },
+   {
+    "name": "page",
+    "placeholder": "1"
+   }
+  ]
+ },
+ {
+  "category": "anime",
+  "method": "GET",
+  "path": "/anime/anichin/genres",
+  "alias": "Anichin Genre List",
+  "description": "Get list of all available genres",
+  "params": []
+ },
+ {
+  "category": "anime",
+  "method": "GET",
+  "path": "/anime/anichin/home",
+  "alias": "Anichin Home",
+  "description": "Get featured slider, popular today, latest releases, and ongoing sidebar from Anichin",
+  "params": []
+ },
+ {
+  "category": "anime",
+  "method": "GET",
+  "path": "/anime/anichin/schedule",
+  "alias": "Anichin Schedule",
+  "description": "Get anime release schedule by day",
+  "params": []
+ },
+ {
+  "category": "anime",
+  "method": "GET",
+  "path": "/anime/anichin/search",
+  "alias": "Anichin Search",
+  "description": "Search for anime by keyword",
+  "params": [
+   {
+    "name": "q",
+    "placeholder": "naruto"
+   },
+   {
+    "name": "page",
+    "placeholder": "1"
+   }
+  ]
+ },
+ {
+  "category": "anime",
+  "method": "GET",
+  "path": "/anime/anichin/stream",
+  "alias": "Anichin Stream",
+  "description": "Get streaming and download links for an episode",
+  "params": [
+   {
+    "name": "url",
+    "placeholder": "https://anichin.cafe/100-000-years-of-refining-qi-episode-335-subtitle-indonesia/"
+   }
+  ]
+ },
+ {
+  "category": "anime",
+  "method": "GET",
+  "path": "/anime/komiku/chapter",
+  "alias": "Komiku Chapter",
+  "description": "Get all images from a manga chapter",
+  "params": [
+   {
+    "name": "url",
+    "placeholder": "https://komiku.org/solo-leveling-ragnarok-chapter-68/"
+   }
+  ]
+ },
+ {
+  "category": "anime",
+  "method": "GET",
+  "path": "/anime/komiku/detail",
+  "alias": "Komiku Detail",
+  "description": "Get detailed information about a manga including chapters, genres, and metadata",
+  "params": [
+   {
+    "name": "url",
+    "placeholder": "https://komiku.org/manga/eternally-regressing-knight/"
+   }
+  ]
+ },
+ {
+  "category": "anime",
+  "method": "GET",
+  "path": "/anime/komiku/home",
+  "alias": "Komiku Home",
+  "description": "Get latest manga updates from Komiku homepage",
+  "params": []
+ },
+ {
+  "category": "anime",
+  "method": "GET",
+  "path": "/anime/komiku/popular",
+  "alias": "Komiku Popular",
+  "description": "Get list of popular manga from Komiku",
+  "params": [
+   {
+    "name": "page",
+    "placeholder": "1"
+   }
+  ]
+ },
+ {
+  "category": "anime",
+  "method": "GET",
+  "path": "/anime/komiku/search",
+  "alias": "Komiku Search",
+  "description": "Search komiku by keyword",
+  "params": [
+   {
+    "name": "q",
+    "placeholder": "Solo Leveling"
+   }
+  ]
+ },
+ {
+  "category": "anime",
+  "method": "GET",
+  "path": "/anime/samehadaku/detail",
+  "alias": "Samehadaku Detail",
+  "description": "Get detailed information about an anime including episodes and recommendations",
+  "params": [
+   {
+    "name": "url",
+    "placeholder": "https://v2.samehadaku.how/anime/boruto-naruto-next-generations/"
+   }
+  ]
+ },
+ {
+  "category": "anime",
+  "method": "GET",
+  "path": "/anime/samehadaku/embed",
+  "alias": "Samehadaku Embed URL",
+  "description": "Get embed URL for video player",
+  "params": [
+   {
+    "name": "post",
+    "placeholder": "37909"
+   },
+   {
+    "name": "nume",
+    "placeholder": "1"
+   },
+   {
+    "name": "type",
+    "placeholder": "schtml"
+   },
+   {
+    "name": "url",
+    "placeholder": "https://v2.samehadaku.how/solo-leveling-episode-1/"
+   }
+  ]
+ },
+ {
+  "category": "anime",
+  "method": "GET",
+  "path": "/anime/samehadaku/home",
+  "alias": "Samehadaku Home",
+  "description": "Get top 10 weekly, latest updates, and project movies from Samehadaku",
+  "params": []
+ },
+ {
+  "category": "anime",
+  "method": "GET",
+  "path": "/anime/samehadaku/page",
+  "alias": "Samehadaku Page",
+  "description": "Get paginated list of all anime",
+  "params": [
+   {
+    "name": "page",
+    "placeholder": "1"
+   }
+  ]
+ },
+ {
+  "category": "anime",
+  "method": "GET",
+  "path": "/anime/samehadaku/schedule",
+  "alias": "Samehadaku Schedule",
+  "description": "Get weekly anime schedule from Monday to Sunday",
+  "params": []
+ },
+ {
+  "category": "anime",
+  "method": "GET",
+  "path": "/anime/samehadaku/search",
+  "alias": "Samehadaku Search",
+  "description": "Search for anime by keyword",
+  "params": [
+   {
+    "name": "q",
+    "placeholder": "naruto"
+   }
+  ]
+ },
+ {
+  "category": "anime",
+  "method": "GET",
+  "path": "/anime/samehadaku/stream",
+  "alias": "Samehadaku Stream",
+  "description": "Get streaming links and download options for an episode",
+  "params": [
+   {
+    "name": "url",
+    "placeholder": "https://v2.samehadaku.how/boruto-episode-292/"
+   }
+  ]
+ },
+ {
+  "category": "berita",
+  "method": "GET",
+  "path": "/berita/antara",
+  "alias": "Antara",
+  "description": "Mendapatkan berita terbaru dari Antara News",
+  "params": []
+ },
+ {
+  "category": "berita",
+  "method": "GET",
+  "path": "/berita/cnbcindonesia",
+  "alias": "CNBC Indonesia",
+  "description": "Mendapatkan berita terbaru dari CNBC Indonesia",
+  "params": []
+ },
+ {
+  "category": "berita",
+  "method": "GET",
+  "path": "/berita/cnn",
+  "alias": "CNN",
+  "description": "Mendapatkan berita terbaru dari CNN",
+  "params": []
+ },
+ {
+  "category": "berita",
+  "method": "GET",
+  "path": "/berita/ffnews",
+  "alias": "Free Fire News",
+  "description": "Dapatkan berita informasi Free Fire",
+  "params": []
+ },
+ {
+  "category": "berita",
+  "method": "GET",
+  "path": "/berita/jkt48",
+  "alias": "JKT48",
+  "description": "Mendapatkan berita terbaru dari JKT48",
+  "params": []
+ },
+ {
+  "category": "berita",
+  "method": "GET",
+  "path": "/berita/kompas",
+  "alias": "Kompas",
+  "description": "Mendapatkan berita terbaru dari Kompas",
+  "params": []
+ },
+ {
+  "category": "berita",
+  "method": "GET",
+  "path": "/berita/merdeka",
+  "alias": "Merdeka",
+  "description": "Mendapatkan berita terbaru dari Merdeka",
+  "params": []
+ },
+ {
+  "category": "berita",
+  "method": "GET",
+  "path": "/berita/mlbb",
+  "alias": "MLBB News",
+  "description": "Dapatkan berita terbaru Mobile Legends",
+  "params": []
+ },
+ {
+  "category": "berita",
+  "method": "GET",
+  "path": "/berita/sindonews",
+  "alias": "Sindo News",
+  "description": "Mendapatkan berita terbaru dari SindoNews",
+  "params": []
+ },
+ {
+  "category": "berita",
+  "method": "GET",
+  "path": "/berita/suara",
+  "alias": "Suara",
+  "description": "Mendapatkan berita terbaru dari Suara",
+  "params": []
+ },
+ {
+  "category": "canvas",
+  "method": "GET",
+  "path": "/canvas/gura",
+  "alias": "Gura",
+  "description": "Membuat gambar dengan template Gura",
+  "params": [
+   {
+    "name": "url",
+    "placeholder": "https://files.catbox.moe/xxx.jpg"
+   }
+  ]
+ },
+ {
+  "category": "canvas",
+  "method": "GET",
+  "path": "/canvas/jmk",
+  "alias": "Tribun JMK48 Twibbon",
+  "description": "Create JMK twibbon with circular frame",
+  "params": [
+   {
+    "name": "url",
+    "placeholder": "https://files.catbox.moe/xxx.jpg"
+   }
+  ]
+ },
+ {
+  "category": "canvas",
+  "method": "GET",
+  "path": "/canvas/mpls",
+  "alias": "MPLS Twibbon",
+  "description": "Generate MPLS twibbon from photo URL",
+  "params": [
+   {
+    "name": "url",
+    "placeholder": "https://files.catbox.moe/xxx.jpg"
+   }
+  ]
+ },
+ {
+  "category": "canvas",
+  "method": "GET",
+  "path": "/canvas/musiccard",
+  "alias": "Music Card",
+  "description": "Generate a music card with song title, artist name, and user image",
+  "params": [
+   {
+    "name": "judul",
+    "placeholder": "Shape of You"
+   },
+   {
+    "name": "nama",
+    "placeholder": "Ed Sheeran"
+   },
+   {
+    "name": "image_url",
+    "placeholder": "https://files.catbox.moe/xxx.jpg"
+   }
+  ]
+ },
+ {
+  "category": "canvas",
+  "method": "GET",
+  "path": "/canvas/quotly",
+  "alias": "Quotly",
+  "description": "Membuat gambar quotly dengan background transparan",
+  "params": [
+   {
+    "name": "text",
+    "placeholder": "Halo apa kabar..."
+   },
+   {
+    "name": "name",
+    "placeholder": "MikuHost"
+   },
+   {
+    "name": "avatar",
+    "placeholder": "https://files.catbox.moe/xxx.jpg"
+   },
+   {
+    "name": "color",
+    "placeholder": "Putih"
+   }
+  ]
+ },
+ {
+  "category": "canvas",
+  "method": "GET",
+  "path": "/canvas/rankcard",
+  "alias": "Rank Card",
+  "description": "Generate ranking card image",
+  "params": [
+   {
+    "name": "username",
+    "placeholder": "MikuHost"
+   },
+   {
+    "name": "avatar",
+    "placeholder": "https://files.catbox.moe/xxx.jpg"
+   },
+   {
+    "name": "currentxp",
+    "placeholder": "12"
+   },
+   {
+    "name": "requiredxp",
+    "placeholder": "20"
+   },
+   {
+    "name": "level",
+    "placeholder": "5"
+   },
+   {
+    "name": "rank",
+    "placeholder": "10"
+   },
+   {
+    "name": "progressbarcolor",
+    "placeholder": "#FFFFFF"
+   }
+  ]
+ },
+ {
+  "category": "canvas",
+  "method": "GET",
+  "path": "/canvas/v1/welcomeleave",
+  "alias": "Welcome-Leave v1",
+  "description": "Buat gambar welcome atau leave menggunakan canvas v1",
+  "params": [
+   {
+    "name": "title",
+    "placeholder": "Welcome..."
+   },
+   {
+    "name": "description",
+    "placeholder": "© mikuhost..."
+   },
+   {
+    "name": "avatar",
+    "placeholder": "https://files.catbox.moe/xxx.jpg"
+   },
+   {
+    "name": "background",
+    "placeholder": "https://files.catbox.moe/yyy.jpg"
+   },
+   {
+    "name": "color",
+    "placeholder": "#FFFFFF"
+   },
+   {
+    "name": "cardstroke",
+    "placeholder": "#000000"
+   }
+  ]
+ },
+ {
+  "category": "canvas",
+  "method": "GET",
+  "path": "/canvas/v2/welcomeleave",
+  "alias": "Welcome-Leave v2",
+  "description": "Buat gambar welcome atau leave menggunakan canvas v2",
+  "params": [
+   {
+    "name": "title",
+    "placeholder": "Welcome..."
+   },
+   {
+    "name": "description",
+    "placeholder": "© mikuhost..."
+   },
+   {
+    "name": "avatar",
+    "placeholder": "https://files.catbox.moe/xxx.jpg"
+   },
+   {
+    "name": "background",
+    "placeholder": "https://files.catbox.moe/yyy.jpg"
+   },
+   {
+    "name": "border",
+    "placeholder": "#2a2e35"
+   },
+   {
+    "name": "avatarborder",
+    "placeholder": "#FFFFFF"
+   }
+  ]
+ },
+ {
+  "category": "canvas",
+  "method": "GET",
+  "path": "/canvas/youtube",
+  "alias": "YouTube-Thumbnail",
+  "description": "Generate YouTube-style thumbnail with cover image, title, and artist",
+  "params": [
+   {
+    "name": "title",
+    "placeholder": "Solana"
+   },
+   {
+    "name": "artist",
+    "placeholder": "Alex Le Mirage"
+   },
+   {
+    "name": "coverurl",
+    "placeholder": "https://i.scdn.co/image/xxx"
+   }
+  ]
+ },
+ {
+  "category": "downloader",
+  "method": "GET",
+  "path": "/downloader/aio",
+  "alias": "All-in-One",
+  "description": "Download video from various social media platforms",
+  "params": [
+   {
+    "name": "url",
+    "placeholder": "https://www.instagram.com/p/xxx/"
+   }
+  ]
+ },
+ {
+  "category": "downloader",
+  "method": "GET",
+  "path": "/downloader/applemusic",
+  "alias": "Apple Music",
+  "description": "Download lagu dari Apple Music",
+  "params": [
+   {
+    "name": "url",
+    "placeholder": "https://music.apple.com/id/album/xxx/"
+   }
+  ]
+ },
+ {
+  "category": "downloader",
+  "method": "GET",
+  "path": "/downloader/bilibili",
+  "alias": "Bilibili",
+  "description": "Download video and audio from Bilibili",
+  "params": [
+   {
+    "name": "url",
+    "placeholder": "https://www.bilibili.com/video/xxx"
+   }
+  ]
+ },
+ {
+  "category": "downloader",
+  "method": "GET",
+  "path": "/downloader/capcut",
+  "alias": "CapCut",
+  "description": "Download video dari CapCut",
+  "params": [
+   {
+    "name": "url",
+    "placeholder": "https://www.capcut.com/t/xxx"
+   }
+  ]
+ },
+ {
+  "category": "downloader",
+  "method": "GET",
+  "path": "/downloader/v1/capcut",
+  "alias": "CapCut v1",
+  "description": "Download video dari CapCut",
+  "params": [
+   {
+    "name": "url",
+    "placeholder": "https://www.capcut.com/t/xxx"
+   }
+  ]
+ },
+ {
+  "category": "downloader",
+  "method": "GET",
+  "path": "/downloader/cocofun",
+  "alias": "Cocofun",
+  "description": "Download video dari Cocofun",
+  "params": [
+   {
+    "name": "url",
+    "placeholder": "https://www.icocofun.com/share/post/xxx?lang=id&amp;pkg=id&amp;share_to=copy_link&amp;m=xxx=xxx"
+   }
+  ]
+ },
+ {
+  "category": "downloader",
+  "method": "GET",
+  "path": "/downloader/douyin",
+  "alias": "Douyin",
+  "description": "Download video dari Douyin",
+  "params": [
+   {
+    "name": "url",
+    "placeholder": "https://www.douyin.com/video/xxx"
+   }
+  ]
+ },
+ {
+  "category": "downloader",
+  "method": "GET",
+  "path": "/downloader/v1/douyin",
+  "alias": "Douyin v1",
+  "description": "Download video dari Douyin",
+  "params": [
+   {
+    "name": "url",
+    "placeholder": "https://www.douyin.com/video/xxx"
+   }
+  ]
+ },
+ {
+  "category": "downloader",
+  "method": "GET",
+  "path": "/downloader/facebook",
+  "alias": "Facebook",
+  "description": "Download video dari Facebook",
+  "params": [
+   {
+    "name": "url",
+    "placeholder": "https://www.facebook.com/watch/?v=xxx"
+   }
+  ]
+ },
+ {
+  "category": "downloader",
+  "method": "GET",
+  "path": "/downloader/github",
+  "alias": "GitHub",
+  "description": "Download GitHub repositories",
+  "params": [
+   {
+    "name": "url",
+    "placeholder": "https://github.com/user/repo"
+   }
+  ]
+ },
+ {
+  "category": "downloader",
+  "method": "GET",
+  "path": "/downloader/googledrive",
+  "alias": "Google Drive",
+  "description": "Download file dari Google Drive",
+  "params": [
+   {
+    "name": "url",
+    "placeholder": "https://drive.google.com/file/d/xxx/view?usp=drivesdk"
+   }
+  ]
+ },
+ {
+  "category": "downloader",
+  "method": "GET",
+  "path": "/downloader/instagram",
+  "alias": "Instagram",
+  "description": "Download video/foto dari Instagram",
+  "params": [
+   {
+    "name": "url",
+    "placeholder": "https://www.instagram.com/p/xxx"
+   }
+  ]
+ },
+ {
+  "category": "downloader",
+  "method": "GET",
+  "path": "/downloader/v1/instagram",
+  "alias": "Instagram v1",
+  "description": "Download media dari Instagram",
+  "params": [
+   {
+    "name": "url",
+    "placeholder": "https://www.instagram.com/reel/xxx/"
+   }
+  ]
+ },
+ {
+  "category": "downloader",
+  "method": "GET",
+  "path": "/downloader/v2/instagram",
+  "alias": "Instagram v2",
+  "description": "Download media dari Instagram",
+  "params": [
+   {
+    "name": "url",
+    "placeholder": "https://www.instagram.com/p/xxx/"
+   }
+  ]
+ },
+ {
+  "category": "downloader",
+  "method": "GET",
+  "path": "/downloader/krakenfiles",
+  "alias": "Kraken Files",
+  "description": "Download media krakenfiles",
+  "params": [
+   {
+    "name": "url",
+    "placeholder": "https://krakenfiles.com/view/xxx/file.html"
+   }
+  ]
+ },
+ {
+  "category": "downloader",
+  "method": "GET",
+  "path": "/downloader/likee",
+  "alias": "Likee",
+  "description": "Download video dari Likee",
+  "params": [
+   {
+    "name": "url",
+    "placeholder": "https://l.likee.video/v/xxx"
+   }
+  ]
+ },
+ {
+  "category": "downloader",
+  "method": "GET",
+  "path": "/downloader/mediafire",
+  "alias": "MediaFire",
+  "description": "Download file dari MediaFire dengan informasi metadata",
+  "params": [
+   {
+    "name": "url",
+    "placeholder": "https://www.mediafire.com/file/xxx/file.zip"
+   }
+  ]
+ },
+ {
+  "category": "downloader",
+  "method": "GET",
+  "path": "/downloader/mega",
+  "alias": "Mega",
+  "description": "Download file dari MEGA.nz dengan metadata lengkap",
+  "params": [
+   {
+    "name": "url",
+    "placeholder": "https://mega.nz/file/xxx"
+   }
+  ]
+ },
+ {
+  "category": "downloader",
+  "method": "GET",
+  "path": "/downloader/npm",
+  "alias": "NPM Package",
+  "description": "Get information about NPM packages",
+  "params": [
+   {
+    "name": "q",
+    "placeholder": "axios"
+   }
+  ]
+ },
+ {
+  "category": "downloader",
+  "method": "GET",
+  "path": "/downloader/pinterest",
+  "alias": "Pinterest",
+  "description": "Download video/foto dari Pinterest",
+  "params": [
+   {
+    "name": "url",
+    "placeholder": "https://id.pinterest.com/pin/xxx/"
+   }
+  ]
+ },
+ {
+  "category": "downloader",
+  "method": "GET",
+  "path": "/downloader/rednote",
+  "alias": "Rednote",
+  "description": "Download media rednote",
+  "params": [
+   {
+    "name": "url",
+    "placeholder": "https://xhslink.com/o/xxx"
+   }
+  ]
+ },
+ {
+  "category": "downloader",
+  "method": "GET",
+  "path": "/downloader/savetube",
+  "alias": "SaveTube",
+  "description": "Dapatkan media video/audio dari YouTube menggunakan SaveTube",
+  "params": [
+   {
+    "name": "url",
+    "placeholder": "https://www.youtube.com/xxx"
+   }
+  ]
+ },
+ {
+  "category": "downloader",
+  "method": "GET",
+  "path": "/downloader/scribd",
+  "alias": "Scribd",
+  "description": "Download file scribd",
+  "params": [
+   {
+    "name": "url",
+    "placeholder": "https://www.scribd.com/document/xxx/xxx"
+   }
+  ]
+ },
+ {
+  "category": "downloader",
+  "method": "GET",
+  "path": "/downloader/sfile",
+  "alias": "SFile",
+  "description": "Download file dari SFile",
+  "params": [
+   {
+    "name": "url",
+    "placeholder": "https://sfile.co/xxx"
+   }
+  ]
+ },
+ {
+  "category": "downloader",
+  "method": "GET",
+  "path": "/downloader/smule",
+  "alias": "Smule",
+  "description": "Download rekaman audio dari Smule",
+  "params": [
+   {
+    "name": "url",
+    "placeholder": "https://www.smule.com/recording/xxx/xxx"
+   }
+  ]
+ },
+ {
+  "category": "downloader",
+  "method": "GET",
+  "path": "/downloader/snackvideo",
+  "alias": "SnackVideo",
+  "description": "Download video dari SnackVideo dengan metadata lengkap",
+  "params": [
+   {
+    "name": "url",
+    "placeholder": "https://snackvideo.com/@xxx/video/xxx"
+   }
+  ]
+ },
+ {
+  "category": "downloader",
+  "method": "GET",
+  "path": "/downloader/soundcloud",
+  "alias": "SoundCloud",
+  "description": "Download audio dari SoundCloud",
+  "params": [
+   {
+    "name": "url",
+    "placeholder": "https://soundcloud.com/xxx/"
+   }
+  ]
+ },
+ {
+  "category": "downloader",
+  "method": "GET",
+  "path": "/downloader/spotify",
+  "alias": "Spotify",
+  "description": "Download audio dari Spotify",
+  "params": [
+   {
+    "name": "url",
+    "placeholder": "https://open.spotify.com/track/xxx"
+   }
+  ]
+ },
+ {
+  "category": "downloader",
+  "method": "GET",
+  "path": "/downloader/spotifyplay",
+  "alias": "Spotify Play",
+  "description": "Cari dan download audio MP3 dari Spotify",
+  "params": [
+   {
+    "name": "q",
+    "placeholder": "GIRL YOU LOUD..."
+   }
+  ]
+ },
+ {
+  "category": "downloader",
+  "method": "GET",
+  "path": "/downloader/v1/spotify",
+  "alias": "Spotify v1",
+  "description": "Download audio dari Spotify support playlist",
+  "params": [
+   {
+    "name": "url",
+    "placeholder": "https://open.spotify.com/track/xxx"
+   }
+  ]
+ },
+ {
+  "category": "downloader",
+  "method": "GET",
+  "path": "/downloader/terabox",
+  "alias": "Terabox",
+  "description": "Download video dari Terabox",
+  "params": [
+   {
+    "name": "url",
+    "placeholder": "https://www.terabox.com/s/xxx"
+   }
+  ]
+ },
+ {
+  "category": "downloader",
+  "method": "GET",
+  "path": "/downloader/threads",
+  "alias": "Threads",
+  "description": "Download Threads content",
+  "params": [
+   {
+    "name": "url",
+    "placeholder": "https://www.threads.net/@xxx/post/xxx"
+   }
+  ]
+ },
+ {
+  "category": "downloader",
+  "method": "GET",
+  "path": "/downloader/tiktok",
+  "alias": "TikTok",
+  "description": "Download video/foto dari TikTok",
+  "params": [
+   {
+    "name": "url",
+    "placeholder": "https://vt.tiktok.com/xxx/"
+   }
+  ]
+ },
+ {
+  "category": "downloader",
+  "method": "GET",
+  "path": "/downloader/twitter",
+  "alias": "Twitter",
+  "description": "Download Twitter (X) videos, images, and convert to MP3",
+  "params": [
+   {
+    "name": "url",
+    "placeholder": "https://x.com/xxx/status/xxx"
+   }
+  ]
+ },
+ {
+  "category": "downloader",
+  "method": "GET",
+  "path": "/downloader/videy",
+  "alias": "Videy",
+  "description": "Download video dari Videy.co",
+  "params": [
+   {
+    "name": "url",
+    "placeholder": "https://videy.co/?id=xxx"
+   }
+  ]
+ },
+ {
+  "category": "downloader",
+  "method": "GET",
+  "path": "/downloader/webmusic",
+  "alias": "WebMusic",
+  "description": "Get download links from WebMusic",
+  "params": [
+   {
+    "name": "url",
+    "placeholder": "https://webmusic.co.in/files/s/xxx"
+   }
+  ]
+ },
+ {
+  "category": "downloader",
+  "method": "GET",
+  "path": "/downloader/ytmp3",
+  "alias": "YouTube-MP3",
+  "description": "Download MP3 dari YouTube",
+  "params": [
+   {
+    "name": "url",
+    "placeholder": "https://www.youtube.com/xxx"
+   }
+  ]
+ },
+ {
+  "category": "downloader",
+  "method": "GET",
+  "path": "/downloader/v1/ytmp3",
+  "alias": "YouTube-MP3 v1",
+  "description": "Download MP3 dari YouTube",
+  "params": [
+   {
+    "name": "url",
+    "placeholder": "https://www.youtube.com/watch?v=xxx"
+   }
+  ]
+ },
+ {
+  "category": "downloader",
+  "method": "GET",
+  "path": "/downloader/ytmp4",
+  "alias": "YouTube-MP4",
+  "description": "Download video MP4 dari YouTube",
+  "params": [
+   {
+    "name": "url",
+    "placeholder": "https://www.youtube.com/watch?v=xxx"
+   }
+  ]
+ },
+ {
+  "category": "downloader",
+  "method": "GET",
+  "path": "/downloader/v1/ytmp4",
+  "alias": "YouTube-MP4 v1",
+  "description": "Download video MP4 dari YouTube v1",
+  "params": [
+   {
+    "name": "url",
+    "placeholder": "https://www.youtube.com/watch?v=xxx"
+   }
+  ]
+ },
+ {
+  "category": "downloader",
+  "method": "GET",
+  "path": "/downloader/ytplay",
+  "alias": "YT-Play",
+  "description": "Cari dan download MP3 dari YouTube",
+  "params": [
+   {
+    "name": "q",
+    "placeholder": "Montagem Noche..."
+   }
+  ]
+ },
+ {
+  "category": "downloader",
+  "method": "GET",
+  "path": "/downloader/ytplayvid",
+  "alias": "YT-Playvid",
+  "description": "Cari dan download video MP4 dari YouTube",
+  "params": [
+   {
+    "name": "q",
+    "placeholder": "Montagem Noche..."
+   }
+  ]
+ },
+ {
+  "category": "editor",
+  "method": "GET",
+  "path": "/editor/wanted",
+  "alias": "Wanted Poster",
+  "description": "Create wanted poster from image",
+  "params": [
+   {
+    "name": "url",
+    "placeholder": "https://files.catbox.moe/xxx.jpg"
+   }
+  ]
+ },
+ {
+  "category": "editor",
+  "method": "GET",
+  "path": "/editor/wasted",
+  "alias": "Wasted",
+  "description": "Generate wasted effect image",
+  "params": [
+   {
+    "name": "url",
+    "placeholder": "https://files.catbox.moe/xxx.jpg"
+   }
+  ]
+ },
+ {
+  "category": "ephoto",
+  "method": "GET",
+  "path": "/ephoto/anime",
+  "alias": "Anime",
+  "description": "Change photo to anime style",
+  "params": [
+   {
+    "name": "url",
+    "placeholder": "https://files.catbox.moe/xxx.jpg"
+   }
+  ]
+ },
+ {
+  "category": "ephoto",
+  "method": "GET",
+  "path": "/ephoto/art",
+  "alias": "Art",
+  "description": "Convert photo to art style",
+  "params": [
+   {
+    "name": "url",
+    "placeholder": "https://files.catbox.moe/xxx.jpg"
+   }
+  ]
+ },
+ {
+  "category": "ephoto",
+  "method": "GET",
+  "path": "/ephoto/asci",
+  "alias": "ASCII Art",
+  "description": "Convert image to ASCII art",
+  "params": [
+   {
+    "name": "url",
+    "placeholder": "https://files.catbox.moe/xxx.jpg"
+   }
+  ]
+ },
+ {
+  "category": "ephoto",
+  "method": "GET",
+  "path": "/ephoto/borealis",
+  "alias": "Borealis",
+  "description": "Convert photo to borealis style",
+  "params": [
+   {
+    "name": "url",
+    "placeholder": "https://files.catbox.moe/xxx.jpg"
+   }
+  ]
+ },
+ {
+  "category": "ephoto",
+  "method": "GET",
+  "path": "/ephoto/botak",
+  "alias": "Botak",
+  "description": "change photo to bald style",
+  "params": [
+   {
+    "name": "url",
+    "placeholder": "https://files.catbox.moe/xxx.jpg"
+   }
+  ]
+ },
+ {
+  "category": "ephoto",
+  "method": "GET",
+  "path": "/ephoto/bravegreen",
+  "alias": "Brave Green",
+  "description": "Apply a green-to-pink duotone filter to an image",
+  "params": [
+   {
+    "name": "url",
+    "placeholder": "https://files.catbox.moe/xxx.jpg"
+   }
+  ]
+ },
+ {
+  "category": "ephoto",
+  "method": "GET",
+  "path": "/ephoto/chibi",
+  "alias": "Chibi",
+  "description": "Change photo to chibi style",
+  "params": [
+   {
+    "name": "url",
+    "placeholder": "https://files.catbox.moe/xxx.jpg"
+   }
+  ]
+ },
+ {
+  "category": "ephoto",
+  "method": "GET",
+  "path": "/ephoto/cinematic",
+  "alias": "Cinematic",
+  "description": "Convert photo to cinematic style",
+  "params": [
+   {
+    "name": "url",
+    "placeholder": "https://files.catbox.moe/xxx.jpg"
+   }
+  ]
+ },
+ {
+  "category": "ephoto",
+  "method": "GET",
+  "path": "/ephoto/comic",
+  "alias": "Comic",
+  "description": "Convert an image to comic-style",
+  "params": [
+   {
+    "name": "url",
+    "placeholder": "https://files.catbox.moe/xxx.jpg"
+   }
+  ]
+ },
+ {
+  "category": "ephoto",
+  "method": "GET",
+  "path": "/ephoto/fairglow",
+  "alias": "Fair Glow",
+  "description": "Ubah foto ke style fairglow",
+  "params": [
+   {
+    "name": "url",
+    "placeholder": "https://files.catbox.moe/xxx.jpg"
+   }
+  ]
+ },
+ {
+  "category": "ephoto",
+  "method": "GET",
+  "path": "/ephoto/v1/figure",
+  "alias": "Figure v1",
+  "description": "Convert photo to figure style v1",
+  "params": [
+   {
+    "name": "url",
+    "placeholder": "https://files.catbox.moe/xxx.jpg"
+   }
+  ]
+ },
+ {
+  "category": "ephoto",
+  "method": "GET",
+  "path": "/ephoto/v2/figure",
+  "alias": "Figure v2",
+  "description": "Change photo to figure style v2",
+  "params": [
+   {
+    "name": "url",
+    "placeholder": "https://files.catbox.moe/xxx.jpg"
+   }
+  ]
+ },
+ {
+  "category": "ephoto",
+  "method": "GET",
+  "path": "/ephoto/ghibli",
+  "alias": "Ghibli",
+  "description": "Convert image to Studio Ghibli style",
+  "params": [
+   {
+    "name": "url",
+    "placeholder": "https://files.catbox.moe/xxx.jpg"
+   }
+  ]
+ },
+ {
+  "category": "ephoto",
+  "method": "GET",
+  "path": "/ephoto/hitam",
+  "alias": "Hitam",
+  "description": "Transform skin tone to deep dark black",
+  "params": [
+   {
+    "name": "url",
+    "placeholder": "https://files.catbox.moe/xxx.jpg"
+   }
+  ]
+ },
+ {
+  "category": "ephoto",
+  "method": "GET",
+  "path": "/ephoto/luminare",
+  "alias": "Luminare",
+  "description": "Cinematic 3-panel winter artwork with lantern",
+  "params": [
+   {
+    "name": "url",
+    "placeholder": "https://files.catbox.moe/xxx.jpg"
+   }
+  ]
+ },
+ {
+  "category": "ephoto",
+  "method": "GET",
+  "path": "/ephoto/mafia",
+  "alias": "Mafia",
+  "description": "Change photo to mafia style",
+  "params": [
+   {
+    "name": "url",
+    "placeholder": "https://files.catbox.moe/xxx.jpg"
+   }
+  ]
+ },
+ {
+  "category": "ephoto",
+  "method": "GET",
+  "path": "/ephoto/mirror",
+  "alias": "Mirror Selfie",
+  "description": "Transform photo into a professional mirror selfie with iPhone 17 Pro Max aesthetic",
+  "params": [
+   {
+    "name": "url",
+    "placeholder": "https://files.catbox.moe/xxx.jpg"
+   }
+  ]
+ },
+ {
+  "category": "ephoto",
+  "method": "GET",
+  "path": "/ephoto/monochrome",
+  "alias": "Monochrome",
+  "description": "Change photo to monochrome style",
+  "params": [
+   {
+    "name": "url",
+    "placeholder": "https://files.catbox.moe/xxx.jpg"
+   }
+  ]
+ },
+ {
+  "category": "ephoto",
+  "method": "GET",
+  "path": "/ephoto/mountain",
+  "alias": "Mountain",
+  "description": "Convert photo to mountain hiking style",
+  "params": [
+   {
+    "name": "url",
+    "placeholder": "https://files.catbox.moe/xxx.jpg"
+   }
+  ]
+ },
+ {
+  "category": "ephoto",
+  "method": "GET",
+  "path": "/ephoto/nft",
+  "alias": "NFT",
+  "description": "Convert photo to pixel-art NFT style",
+  "params": [
+   {
+    "name": "url",
+    "placeholder": "https://files.catbox.moe/xxx.jpg"
+   }
+  ]
+ },
+ {
+  "category": "ephoto",
+  "method": "GET",
+  "path": "/ephoto/pixel",
+  "alias": "Pixel Art",
+  "description": "Convert photo to pixel art style",
+  "params": [
+   {
+    "name": "url",
+    "placeholder": "https://files.catbox.moe/xxx.jpg"
+   }
+  ]
+ },
+ {
+  "category": "ephoto",
+  "method": "GET",
+  "path": "/ephoto/playlist",
+  "alias": "Playlist",
+  "description": "Convert photo to Spotify playlist style",
+  "params": [
+   {
+    "name": "url",
+    "placeholder": "https://files.catbox.moe/xxx.jpg"
+   }
+  ]
+ },
+ {
+  "category": "ephoto",
+  "method": "GET",
+  "path": "/ephoto/qin",
+  "alias": "Qin",
+  "description": "Convert photo to qin style",
+  "params": [
+   {
+    "name": "url",
+    "placeholder": "https://files.catbox.moe/xxx.jpg"
+   }
+  ]
+ },
+ {
+  "category": "ephoto",
+  "method": "GET",
+  "path": "/ephoto/real",
+  "alias": "Real Human",
+  "description": "Convert photo to realistic human style",
+  "params": [
+   {
+    "name": "url",
+    "placeholder": "https://files.catbox.moe/xxx.jpg"
+   }
+  ]
+ },
+ {
+  "category": "ephoto",
+  "method": "GET",
+  "path": "/ephoto/statue",
+  "alias": "Statue",
+  "description": "Convert photo to giant statue style",
+  "params": [
+   {
+    "name": "url",
+    "placeholder": "https://files.catbox.moe/xxx.jpg"
+   }
+  ]
+ },
+ {
+  "category": "ephoto",
+  "method": "GET",
+  "path": "/ephoto/street",
+  "alias": "Street Art",
+  "description": "Convert photo to street graffiti art style",
+  "params": [
+   {
+    "name": "url",
+    "placeholder": "https://files.catbox.moe/xxx.jpg"
+   }
+  ]
+ },
+ {
+  "category": "fun",
+  "method": "GET",
+  "path": "/fun/alay",
+  "alias": "Alay",
+  "description": "Convert text to alay style (Indonesian slang)",
+  "params": [
+   {
+    "name": "text",
+    "placeholder": "HelloWorld"
+   }
+  ]
+ },
+ {
+  "category": "fun",
+  "method": "GET",
+  "path": "/fun/livefunfact",
+  "alias": "Live Fun Facts",
+  "description": "Generate comprehensive medical fun facts about human body based on birth date",
+  "params": [
+   {
+    "name": "birthdate",
+    "placeholder": "1990-05-15"
+   }
+  ]
+ },
+ {
+  "category": "games",
+  "method": "GET",
+  "path": "/games/asahotak",
+  "alias": "Asah Otak",
+  "description": "Get random asah otak question",
+  "params": []
+ },
+ {
+  "category": "games",
+  "method": "GET",
+  "path": "/games/islamic",
+  "alias": "Islamic",
+  "description": "Get random Islamic question",
+  "params": []
+ },
+ {
+  "category": "games",
+  "method": "GET",
+  "path": "/games/siapakahaku",
+  "alias": "Siapakah Aku",
+  "description": "Get random siapakah aku question",
+  "params": []
+ },
+ {
+  "category": "games",
+  "method": "GET",
+  "path": "/games/susunkata",
+  "alias": "Susun Kata",
+  "description": "Get random susun kata question",
+  "params": []
+ },
+ {
+  "category": "games",
+  "method": "GET",
+  "path": "/games/tebakkimia",
+  "alias": "Tebak Kimia",
+  "description": "Get random tebak kimia question with chemical element and its symbol",
+  "params": []
+ },
+ {
+  "category": "games",
+  "method": "GET",
+  "path": "/games/tebaklirik",
+  "alias": "Tebak Lirik",
+  "description": "Get random song lyric guessing question",
+  "params": []
+ },
+ {
+  "category": "games",
+  "method": "GET",
+  "path": "/games/tebaktebakan",
+  "alias": "Tebak Tebakan",
+  "description": "Get random riddle/question guessing game",
+  "params": []
+ },
+ {
+  "category": "games",
+  "method": "GET",
+  "path": "/games/tekateki",
+  "alias": "Teka Teki",
+  "description": "Get random puzzle/riddle question",
+  "params": []
+ },
+ {
+  "category": "information",
+  "method": "GET",
+  "path": "/information/cektagihanpln",
+  "alias": "Cek-Tagihan-Listrik-PLN",
+  "description": "Cek tagihan listrik PLN berdasarkan nomor pelanggan",
+  "params": [
+   {
+    "name": "nopel",
+    "placeholder": "443100003506"
+   }
+  ]
+ },
+ {
+  "category": "information",
+  "method": "GET",
+  "path": "/information/check-rekening",
+  "alias": "Check Rekening",
+  "description": "Cek informasi rekening bank",
+  "params": [
+   {
+    "name": "number",
+    "placeholder": "08xxx"
+   },
+   {
+    "name": "bank",
+    "placeholder": "dana"
+   }
+  ]
+ },
+ {
+  "category": "information",
+  "method": "GET",
+  "path": "/information/cuaca",
+  "alias": "Cuaca",
+  "description": "Get weather forecast from BMKG for specific location",
+  "params": [
+   {
+    "name": "kota",
+    "placeholder": "Senen, Central Jakarta, DKI Jakarta"
+   }
+  ]
+ },
+ {
+  "category": "information",
+  "method": "GET",
+  "path": "/information/gempa",
+  "alias": "Gempa",
+  "description": "Mendapatkan informasi gempa terkini dari BMKG",
+  "params": []
+ },
+ {
+  "category": "information",
+  "method": "GET",
+  "path": "/information/growagarden",
+  "alias": "Grow A Garden Stock",
+  "description": "Mendapatkan informasi stok dari Grow A Garden",
+  "params": []
+ },
+ {
+  "category": "information",
+  "method": "GET",
+  "path": "/information/hari-libur",
+  "alias": "Hari Libur Nasional",
+  "description": "Mendapatkan informasi hari libur nasional dan event penting di Indonesia",
+  "params": []
+ },
+ {
+  "category": "information",
+  "method": "GET",
+  "path": "/information/jadwalbola",
+  "alias": "Jadwal-Sepakbola",
+  "description": "Mendapatkan jadwal pertandingan sepakbola terkini",
+  "params": []
+ },
+ {
+  "category": "information",
+  "method": "GET",
+  "path": "/information/jadwalsholat",
+  "alias": "Jadwal Sholat",
+  "description": "Get prayer schedule for specific city",
+  "params": [
+   {
+    "name": "kota",
+    "placeholder": "jakarta"
+   }
+  ]
+ },
+ {
+  "category": "information",
+  "method": "GET",
+  "path": "/information/jadwaltv",
+  "alias": "Jadwal TV",
+  "description": "Get TV schedule for specific channel",
+  "params": [
+   {
+    "name": "channel",
+    "placeholder": "rcti"
+   }
+  ]
+ },
+ {
+  "category": "maker",
+  "method": "GET",
+  "path": "/maker/attp",
+  "alias": "Attp",
+  "description": "Attp Maker",
+  "params": [
+   {
+    "name": "text",
+    "placeholder": "Halo apa kabar..."
+   }
+  ]
+ },
+ {
+  "category": "maker",
+  "method": "GET",
+  "path": "/maker/balogo",
+  "alias": "Balogo",
+  "description": "Generate Blue Archive style logo",
+  "params": [
+   {
+    "name": "text",
+    "placeholder": "BlueArchive"
+   }
+  ]
+ },
+ {
+  "category": "maker",
+  "method": "GET",
+  "path": "/maker/brat",
+  "alias": "Brat",
+  "description": "Brat Maker",
+  "params": [
+   {
+    "name": "text",
+    "placeholder": "Halo apa kabar..."
+   }
+  ]
+ },
+ {
+  "category": "maker",
+  "method": "GET",
+  "path": "/maker/bratanime",
+  "alias": "Brat Anime",
+  "description": "Brat Anime Maker",
+  "params": [
+   {
+    "name": "text",
+    "placeholder": "Halo apa kabar..."
+   }
+  ]
+ },
+ {
+  "category": "maker",
+  "method": "GET",
+  "path": "/maker/brathd",
+  "alias": "Brat HD",
+  "description": "Brat HD Maker",
+  "params": [
+   {
+    "name": "text",
+    "placeholder": "Halo apa kabar..."
+   }
+  ]
+ },
+ {
+  "category": "maker",
+  "method": "GET",
+  "path": "/maker/bratvid",
+  "alias": "Bratvid",
+  "description": "Bratvid Maker.",
+  "params": [
+   {
+    "name": "text",
+    "placeholder": "Halo apa kabar..."
+   }
+  ]
+ },
+ {
+  "category": "maker",
+  "method": "GET",
+  "path": "/maker/bratvidhd",
+  "alias": "Bratvid HD",
+  "description": "Bratvid HD Maker",
+  "params": [
+   {
+    "name": "text",
+    "placeholder": "Halo apa kabar..."
+   }
+  ]
+ },
+ {
+  "category": "maker",
+  "method": "GET",
+  "path": "/maker/codesnap",
+  "alias": "Code Snap",
+  "description": "Create code snippet image",
+  "params": [
+   {
+    "name": "code",
+    "placeholder": "console.log(&#39;Hello World&#39;);"
+   }
+  ]
+ },
+ {
+  "category": "maker",
+  "method": "GET",
+  "path": "/maker/fakebank-jago",
+  "alias": "Fake Bank Jago",
+  "description": "Fake Bank Jago Maker",
+  "params": [
+   {
+    "name": "nama",
+    "placeholder": "Bella"
+   },
+   {
+    "name": "saldo",
+    "placeholder": "100000"
+   }
+  ]
+ },
+ {
+  "category": "maker",
+  "method": "GET",
+  "path": "/maker/fakedana",
+  "alias": "Fake Dana",
+  "description": "Fake Dana Maker",
+  "params": [
+   {
+    "name": "nominal",
+    "placeholder": "1000"
+   }
+  ]
+ },
+ {
+  "category": "maker",
+  "method": "GET",
+  "path": "/maker/fakelobyff",
+  "alias": "Fake Loby FF",
+  "description": "Generate fake Free Fire lobby card with random template",
+  "params": [
+   {
+    "name": "nickname",
+    "placeholder": "MikuHost"
+   }
+  ]
+ },
+ {
+  "category": "maker",
+  "method": "GET",
+  "path": "/maker/fakelobyml",
+  "alias": "Fake Loby MLBB",
+  "description": "Create Mobile Legends lobby",
+  "params": [
+   {
+    "name": "avatar",
+    "placeholder": "https://files.catbox.moe/xxx.jpg"
+   },
+   {
+    "name": "nickname",
+    "placeholder": "MikuHost"
+   }
+  ]
+ },
+ {
+  "category": "maker",
+  "method": "GET",
+  "path": "/maker/fakestory",
+  "alias": "Fake Story",
+  "description": "Membuat gambar fake Instagram story",
+  "params": [
+   {
+    "name": "username",
+    "placeholder": "MikuHost"
+   },
+   {
+    "name": "caption",
+    "placeholder": "Halo apa kabar..."
+   },
+   {
+    "name": "avatar",
+    "placeholder": "https://files.catbox.moe/xxx.jpg"
+   }
+  ]
+ },
+ {
+  "category": "maker",
+  "method": "GET",
+  "path": "/maker/fakethreads",
+  "alias": "Fake Threads",
+  "description": "Generate fake Threads",
+  "params": [
+   {
+    "name": "username",
+    "placeholder": "MikuHost"
+   },
+   {
+    "name": "avatar",
+    "placeholder": "https://files.catbox.moe/xxxjpg"
+   },
+   {
+    "name": "text",
+    "placeholder": "This is my first thread post!"
+   },
+   {
+    "name": "likes",
+    "placeholder": "100"
+   }
+  ]
+ },
+ {
+  "category": "maker",
+  "method": "GET",
+  "path": "/maker/iqc",
+  "alias": "Iqc",
+  "description": "Membuat gambar IQC dari teks",
+  "params": [
+   {
+    "name": "text",
+    "placeholder": "Halo apa kabar..."
+   }
+  ]
+ },
+ {
+  "category": "maker",
+  "method": "GET",
+  "path": "/maker/v1/iqc",
+  "alias": "Iqc v1",
+  "description": "Membuat gambar IQC dari teks v1",
+  "params": [
+   {
+    "name": "text",
+    "placeholder": "Halo apa kabar..."
+   },
+   {
+    "name": "provider",
+    "placeholder": "INDOSAT"
+   },
+   {
+    "name": "jam",
+    "placeholder": "12:00"
+   },
+   {
+    "name": "baterai",
+    "placeholder": "50"
+   }
+  ]
+ },
+ {
+  "category": "maker",
+  "method": "GET",
+  "path": "/maker/msg",
+  "alias": "Message",
+  "description": "Generate Windows-style message box image",
+  "params": [
+   {
+    "name": "message",
+    "placeholder": "This is a test message"
+   },
+   {
+    "name": "title",
+    "placeholder": "Title"
+   }
+  ]
+ },
+ {
+  "category": "maker",
+  "method": "GET",
+  "path": "/maker/nulis",
+  "alias": "Nulis",
+  "description": "Membuat gambar tulisan dengan gaya buku tulis",
+  "params": [
+   {
+    "name": "text",
+    "placeholder": "Halo, ini contoh tulisan"
+   }
+  ]
+ },
+ {
+  "category": "maker",
+  "method": "GET",
+  "path": "/maker/qc",
+  "alias": "Qc",
+  "description": "Membuat gambar quoted chat",
+  "params": [
+   {
+    "name": "text",
+    "placeholder": "Halo apa kabar..."
+   },
+   {
+    "name": "name",
+    "placeholder": "MikuHost"
+   },
+   {
+    "name": "avatar",
+    "placeholder": "https://files.catbox.moe/xxx.jpg"
+   },
+   {
+    "name": "color",
+    "placeholder": "Putih"
+   }
+  ]
+ },
+ {
+  "category": "maker",
+  "method": "GET",
+  "path": "/maker/smeme",
+  "alias": "Smeme",
+  "description": "Membuat meme dengan teks atas dan bawah",
+  "params": [
+   {
+    "name": "text_atas",
+    "placeholder": "Halo..."
+   },
+   {
+    "name": "text_bawah",
+    "placeholder": "apa kabar..."
+   },
+   {
+    "name": "background",
+    "placeholder": "https://files.catbox.moe/xxx.jpg"
+   }
+  ]
+ },
+ {
+  "category": "maker",
+  "method": "GET",
+  "path": "/maker/ttp",
+  "alias": "Ttp",
+  "description": "Convert text to centered PNG image",
+  "params": [
+   {
+    "name": "text",
+    "placeholder": "Halo apa kabar..."
+   }
+  ]
+ },
+ {
+  "category": "maker",
+  "method": "GET",
+  "path": "/maker/ustadz",
+  "alias": "Ustadz Meme",
+  "description": "Membuat gambar dengan teks di template ustadz",
+  "params": [
+   {
+    "name": "text",
+    "placeholder": "Hukum makan..."
+   }
+  ]
+ },
+ {
+  "category": "payment",
+  "method": "POST",
+  "path": "/payment/qris",
+  "alias": "QRIS Dynamic Generator",
+  "description": "Convert static merchant QRIS to dynamic with a custom nominal. Provide the source QR via file upload or url.",
+  "params": [
+   {
+    "name": "nominal",
+    "placeholder": "50000"
+   },
+   {
+    "name": "file",
+    "placeholder": ""
+   },
+   {
+    "name": "url",
+    "placeholder": "https://example.com/qris.png"
+   }
+  ]
+ },
+ {
+  "category": "payment",
+  "method": "GET",
+  "path": "/payment/saweria/check",
+  "alias": "Saweria Check",
+  "description": "Cek status pembayaran saweria",
+  "params": [
+   {
+    "name": "transactionid",
+    "placeholder": "12345678-xxxx"
+   }
+  ]
+ },
+ {
+  "category": "payment",
+  "method": "GET",
+  "path": "/payment/saweria/create",
+  "alias": "Saweria Create",
+  "description": "Buat pembayaran saweria",
+  "params": [
+   {
+    "name": "username",
+    "placeholder": "MikuHost"
+   },
+   {
+    "name": "amount",
+    "placeholder": "10000"
+   },
+   {
+    "name": "sender",
+    "placeholder": "Budi"
+   },
+   {
+    "name": "email",
+    "placeholder": "budi@saweria.co"
+   },
+   {
+    "name": "pesan",
+    "placeholder": "Selamat"
+   }
+  ]
+ },
+ {
+  "category": "primbon",
+  "method": "GET",
+  "path": "/primbon/artinama",
+  "alias": "Arti Nama",
+  "description": "Mendapatkan arti nama dari primbon",
+  "params": [
+   {
+    "name": "name",
+    "placeholder": "MikuHost"
+   }
+  ]
+ },
+ {
+  "category": "primbon",
+  "method": "GET",
+  "path": "/primbon/nomerhoki",
+  "alias": "Nomor Hoki",
+  "description": "Cek keberuntungan nomor telepon berdasarkan metode Bagua Shuzi",
+  "params": [
+   {
+    "name": "phone_number",
+    "placeholder": "6285658939117"
+   }
+  ]
+ },
+ {
+  "category": "primbon",
+  "method": "GET",
+  "path": "/primbon/pasangan",
+  "alias": "Kecocokan Nama Pasangan",
+  "description": "Cek kecocokan jodoh berdasarkan nama pasangan menggunakan metode numerologi.",
+  "params": [
+   {
+    "name": "nama1",
+    "placeholder": "MikuHost"
+   },
+   {
+    "name": "nama2",
+    "placeholder": "fiona"
+   }
+  ]
+ },
+ {
+  "category": "primbon",
+  "method": "GET",
+  "path": "/primbon/penyakit",
+  "alias": "Cek Potensi Penyakit",
+  "description": "Cek potensi penyakit berdasarkan tanggal lahir dengan metode Pitagoras",
+  "params": [
+   {
+    "name": "tanggal",
+    "placeholder": "12"
+   },
+   {
+    "name": "bulan",
+    "placeholder": "5"
+   },
+   {
+    "name": "tahun",
+    "placeholder": "1998"
+   }
+  ]
+ },
+ {
+  "category": "primbon",
+  "method": "GET",
+  "path": "/primbon/ramalanjodoh",
+  "alias": "Ramalan Jodoh",
+  "description": "Ramalan jodoh berdasarkan metode Jawa Betaljemur Adammakna",
+  "params": [
+   {
+    "name": "nama1",
+    "placeholder": "MikuHost"
+   },
+   {
+    "name": "tanggal1",
+    "placeholder": "16"
+   },
+   {
+    "name": "bulan1",
+    "placeholder": "11"
+   },
+   {
+    "name": "tahun1",
+    "placeholder": "2007"
+   },
+   {
+    "name": "nama2",
+    "placeholder": "fiona"
+   },
+   {
+    "name": "tanggal2",
+    "placeholder": "1"
+   },
+   {
+    "name": "bulan2",
+    "placeholder": "1"
+   },
+   {
+    "name": "tahun2",
+    "placeholder": "2008"
+   }
+  ]
+ },
+ {
+  "category": "primbon",
+  "method": "GET",
+  "path": "/primbon/ramalanjodohbali",
+  "alias": "Ramalan Jodoh Bali",
+  "description": "Ramalan jodoh berdasarkan metode Bali Pal Sri Sedanai",
+  "params": [
+   {
+    "name": "nama1",
+    "placeholder": "MikuHost"
+   },
+   {
+    "name": "tanggal1",
+    "placeholder": "16"
+   },
+   {
+    "name": "bulan1",
+    "placeholder": "11"
+   },
+   {
+    "name": "tahun1",
+    "placeholder": "2007"
+   },
+   {
+    "name": "nama2",
+    "placeholder": "fiona"
+   },
+   {
+    "name": "tanggal2",
+    "placeholder": "1"
+   },
+   {
+    "name": "bulan2",
+    "placeholder": "1"
+   },
+   {
+    "name": "tahun2",
+    "placeholder": "2008"
+   }
+  ]
+ },
+ {
+  "category": "primbon",
+  "method": "GET",
+  "path": "/primbon/rejekihoki-weton",
+  "alias": "Rejeki Hoki Weton",
+  "description": "Ramalan rejeki dan hoki berdasarkan weton kelahiran Jawa",
+  "params": [
+   {
+    "name": "tanggal",
+    "placeholder": "1"
+   },
+   {
+    "name": "bulan",
+    "placeholder": "1"
+   },
+   {
+    "name": "tahun",
+    "placeholder": "2025"
+   }
+  ]
+ },
+ {
+  "category": "primbon",
+  "method": "GET",
+  "path": "/primbon/sifatusaha-bisnis",
+  "alias": "Sifat Usaha Bisnis",
+  "description": "Menganalisis sifat dan karakter usaha/bisnis berdasarkan tanggal lahir",
+  "params": [
+   {
+    "name": "tanggal",
+    "placeholder": "1"
+   },
+   {
+    "name": "bulan",
+    "placeholder": "1"
+   },
+   {
+    "name": "tahun",
+    "placeholder": "2000"
+   }
+  ]
+ },
+ {
+  "category": "primbon",
+  "method": "GET",
+  "path": "/primbon/tafsirmimpi",
+  "alias": "Tafsir Mimpi",
+  "description": "Interpretasi mimpi berdasarkan primbon",
+  "params": [
+   {
+    "name": "mimpi",
+    "placeholder": "bertemu"
+   }
+  ]
+ },
+ {
+  "category": "primbon",
+  "method": "GET",
+  "path": "/primbon/zodiak",
+  "alias": "Zodiak",
+  "description": "Informasi lengkap zodiak berdasarkan primbon",
+  "params": []
+ },
+ {
+  "category": "random",
+  "method": "GET",
+  "path": "/random/anime",
+  "alias": "Anime",
+  "description": "Dapatkan gambar karakter anime yang di inginkan sesuai kategori type",
+  "params": []
+ },
+ {
+  "category": "random",
+  "method": "GET",
+  "path": "/random/ba",
+  "alias": "Blue-Archive",
+  "description": "Mendapatkan gambar random",
+  "params": []
+ },
+ {
+  "category": "random",
+  "method": "GET",
+  "path": "/random/cecan/china",
+  "alias": "Cecan China",
+  "description": "Mendapatkan gambar random cecan China",
+  "params": []
+ },
+ {
+  "category": "random",
+  "method": "GET",
+  "path": "/random/cecan/indonesia",
+  "alias": "Cecan Indonesia",
+  "description": "Mendapatkan gambar random cecan Indonesia",
+  "params": []
+ },
+ {
+  "category": "random",
+  "method": "GET",
+  "path": "/random/cecan/japan",
+  "alias": "Cecan Japan",
+  "description": "Mendapatkan gambar random cecan Japan",
+  "params": []
+ },
+ {
+  "category": "random",
+  "method": "GET",
+  "path": "/random/cecan/korea",
+  "alias": "Cecan Korea",
+  "description": "Mendapatkan gambar random cecan Korea",
+  "params": []
+ },
+ {
+  "category": "random",
+  "method": "GET",
+  "path": "/random/cecan/thailand",
+  "alias": "Cecan Thailand",
+  "description": "Mendapatkan gambar random cecan Thailand",
+  "params": []
+ },
+ {
+  "category": "random",
+  "method": "GET",
+  "path": "/random/cecan/vietnam",
+  "alias": "Cecan Vietnam",
+  "description": "Mendapatkan gambar random cecan Vietnam",
+  "params": []
+ },
+ {
+  "category": "random",
+  "method": "GET",
+  "path": "/random/loli",
+  "alias": "Loli",
+  "description": "Mendapatkan gambar random loli",
+  "params": []
+ },
+ {
+  "category": "random",
+  "method": "GET",
+  "path": "/random/pap",
+  "alias": "Pap",
+  "description": "Mendapatkan gambar Pap",
+  "params": []
+ },
+ {
+  "category": "search",
+  "method": "GET",
+  "path": "/search/8font",
+  "alias": "8 Font",
+  "description": "Search for fonts on 8font",
+  "params": [
+   {
+    "name": "q",
+    "placeholder": "cartoon"
+   },
+   {
+    "name": "page",
+    "placeholder": "1"
+   }
+  ]
+ },
+ {
+  "category": "search",
+  "method": "GET",
+  "path": "/search/applemusic",
+  "alias": "Apple Music",
+  "description": "Mencari lagu di Apple Music",
+  "params": [
+   {
+    "name": "q",
+    "placeholder": "lauv"
+   }
+  ]
+ },
+ {
+  "category": "search",
+  "method": "GET",
+  "path": "/search/bilibili",
+  "alias": "Bilibili",
+  "description": "Search videos on Bilibili",
+  "params": [
+   {
+    "name": "q",
+    "placeholder": "rekomendasi anime"
+   }
+  ]
+ },
+ {
+  "category": "search",
+  "method": "GET",
+  "path": "/search/bingimage",
+  "alias": "Bing Image",
+  "description": "Search for images using Bing image search",
+  "params": [
+   {
+    "name": "q",
+    "placeholder": "kucing"
+   }
+  ]
+ },
+ {
+  "category": "search",
+  "method": "GET",
+  "path": "/search/brave",
+  "alias": "Brave",
+  "description": "Search using Brave search engine",
+  "params": [
+   {
+    "name": "q",
+    "placeholder": "apa itu nodejs"
+   }
+  ]
+ },
+ {
+  "category": "search",
+  "method": "GET",
+  "path": "/search/capcut",
+  "alias": "CapCut",
+  "description": "CapCut Search",
+  "params": [
+   {
+    "name": "q",
+    "placeholder": "Cinematic..."
+   }
+  ]
+ },
+ {
+  "category": "search",
+  "method": "GET",
+  "path": "/search/douyin",
+  "alias": "Douyin",
+  "description": "Mencari video di Douyin",
+  "params": [
+   {
+    "name": "q",
+    "placeholder": "funny"
+   }
+  ]
+ },
+ {
+  "category": "search",
+  "method": "GET",
+  "path": "/search/github",
+  "alias": "GitHub",
+  "description": "Mencari file di GitHub",
+  "params": [
+   {
+    "name": "q",
+    "placeholder": "Bot WhatsApp"
+   }
+  ]
+ },
+ {
+  "category": "search",
+  "method": "GET",
+  "path": "/search/googleimage",
+  "alias": "Google",
+  "description": "Search for images on Google Images by providing a search query",
+  "params": [
+   {
+    "name": "q",
+    "placeholder": "Dasha Taran"
+   }
+  ]
+ },
+ {
+  "category": "search",
+  "method": "GET",
+  "path": "/search/groupsor",
+  "alias": "Groupsor",
+  "description": "Cari group menggunakan groupsor",
+  "params": [
+   {
+    "name": "q",
+    "placeholder": "Cari Teman..."
+   }
+  ]
+ },
+ {
+  "category": "search",
+  "method": "GET",
+  "path": "/search/gsmarena",
+  "alias": "GSMArena",
+  "description": "Search for mobile phone information on GSMArena.com",
+  "params": [
+   {
+    "name": "q",
+    "placeholder": "iphone"
+   }
+  ]
+ },
+ {
+  "category": "search",
+  "method": "GET",
+  "path": "/search/happymood",
+  "alias": "HappyMood",
+  "description": "Search modded apps on HappyMod",
+  "params": [
+   {
+    "name": "q",
+    "placeholder": "kinemaster"
+   }
+  ]
+ },
+ {
+  "category": "search",
+  "method": "GET",
+  "path": "/search/istock",
+  "alias": "iStock",
+  "description": "Search for images on iStock",
+  "params": [
+   {
+    "name": "q",
+    "placeholder": "mountain"
+   }
+  ]
+ },
+ {
+  "category": "search",
+  "method": "GET",
+  "path": "/search/lyrics",
+  "alias": "Lyrics",
+  "description": "Cari lirik lagu berdasarkan judul",
+  "params": [
+   {
+    "name": "q",
+    "placeholder": "lauv never not..."
+   }
+  ]
+ },
+ {
+  "category": "search",
+  "method": "GET",
+  "path": "/search/npmjs",
+  "alias": "NPM-Package",
+  "description": "Mencari package di npm registry",
+  "params": [
+   {
+    "name": "q",
+    "placeholder": "express"
+   }
+  ]
+ },
+ {
+  "category": "search",
+  "method": "GET",
+  "path": "/search/pinterest",
+  "alias": "Pinterest",
+  "description": "Search for images on Pinterest",
+  "params": [
+   {
+    "name": "q",
+    "placeholder": "Dasha taran"
+   }
+  ]
+ },
+ {
+  "category": "search",
+  "method": "GET",
+  "path": "/search/pinterestvideo",
+  "alias": "Pinterest Video",
+  "description": "Search for videos on Pinterest",
+  "params": [
+   {
+    "name": "q",
+    "placeholder": "Dasha taran"
+   }
+  ]
+ },
+ {
+  "category": "search",
+  "method": "GET",
+  "path": "/search/playstore",
+  "alias": "Play Store",
+  "description": "Mencari aplikasi di Google Play Store",
+  "params": [
+   {
+    "name": "q",
+    "placeholder": "whatsapp"
+   }
+  ]
+ },
+ {
+  "category": "search",
+  "method": "GET",
+  "path": "/search/resep",
+  "alias": "Resep Koki",
+  "description": "Search for recipes on ResepKoki.id",
+  "params": [
+   {
+    "name": "q",
+    "placeholder": "nasi goreng"
+   }
+  ]
+ },
+ {
+  "category": "search",
+  "method": "GET",
+  "path": "/search/sfile",
+  "alias": "SFile",
+  "description": "Search file dari SFile",
+  "params": [
+   {
+    "name": "q",
+    "placeholder": "Pou..."
+   }
+  ]
+ },
+ {
+  "category": "search",
+  "method": "GET",
+  "path": "/search/soundcloud",
+  "alias": "SoundCloud",
+  "description": "Mencari lagu di SoundCloud",
+  "params": [
+   {
+    "name": "q",
+    "placeholder": "lofi beats"
+   }
+  ]
+ },
+ {
+  "category": "search",
+  "method": "GET",
+  "path": "/search/spotify",
+  "alias": "Spotify",
+  "description": "Search for tracks on Spotify",
+  "params": [
+   {
+    "name": "q",
+    "placeholder": "Solana Alex Le Mirage"
+   }
+  ]
+ },
+ {
+  "category": "search",
+  "method": "GET",
+  "path": "/search/v1/spotify",
+  "alias": "Spotify v1",
+  "description": "Search for tracks on Spotify",
+  "params": [
+   {
+    "name": "q",
+    "placeholder": "wasted nightcore"
+   }
+  ]
+ },
+ {
+  "category": "search",
+  "method": "GET",
+  "path": "/search/stickerly",
+  "alias": "Stickerly",
+  "description": "Search sticker dari stickerly",
+  "params": [
+   {
+    "name": "q",
+    "placeholder": "Patrick"
+   }
+  ]
+ },
+ {
+  "category": "search",
+  "method": "GET",
+  "path": "/search/terabox",
+  "alias": "Terabox",
+  "description": "Search files dari Terabox",
+  "params": [
+   {
+    "name": "q",
+    "placeholder": "Anime"
+   }
+  ]
+ },
+ {
+  "category": "search",
+  "method": "GET",
+  "path": "/search/tidal",
+  "alias": "Tidal",
+  "description": "Search music dari Tidal",
+  "params": [
+   {
+    "name": "q",
+    "placeholder": "Solana"
+   }
+  ]
+ },
+ {
+  "category": "search",
+  "method": "GET",
+  "path": "/search/tiktok",
+  "alias": "TikTok",
+  "description": "TikTok Search",
+  "params": [
+   {
+    "name": "q",
+    "placeholder": "Ronaldo..."
+   }
+  ]
+ },
+ {
+  "category": "search",
+  "method": "GET",
+  "path": "/search/tiktokphoto",
+  "alias": "TikTok Photo",
+  "description": "Mencari foto di TikTok",
+  "params": [
+   {
+    "name": "q",
+    "placeholder": "nature"
+   }
+  ]
+ },
+ {
+  "category": "search",
+  "method": "GET",
+  "path": "/search/tiktoktrend",
+  "alias": "TikTok Trending",
+  "description": "Mendapatkan feed trending TikTok berdasarkan region",
+  "params": [
+   {
+    "name": "id",
+    "placeholder": "ID"
+   }
+  ]
+ },
+ {
+  "category": "search",
+  "method": "GET",
+  "path": "/search/tiktokuser",
+  "alias": "TikTok User",
+  "description": "Mendapatkan postingan dari user TikTok",
+  "params": [
+   {
+    "name": "username",
+    "placeholder": "MikuHost"
+   }
+  ]
+ },
+ {
+  "category": "search",
+  "method": "GET",
+  "path": "/search/wallcraft",
+  "alias": "Wallcraft",
+  "description": "Search for wallpapers",
+  "params": [
+   {
+    "name": "q",
+    "placeholder": "nature"
+   }
+  ]
+ },
+ {
+  "category": "search",
+  "method": "GET",
+  "path": "/search/wikipedia",
+  "alias": "Wikipedia",
+  "description": "Search for articles on Wikipedia",
+  "params": [
+   {
+    "name": "q",
+    "placeholder": "javascript"
+   }
+  ]
+ },
+ {
+  "category": "search",
+  "method": "GET",
+  "path": "/search/youtube",
+  "alias": "YouTube",
+  "description": "Search video dari YouTube",
+  "params": [
+   {
+    "name": "q",
+    "placeholder": "Solana"
+   }
+  ]
+ },
+ {
+  "category": "stalker",
+  "method": "GET",
+  "path": "/stalker/freefire",
+  "alias": "Free Fire",
+  "description": "Get Free Fire player",
+  "params": [
+   {
+    "name": "uid",
+    "placeholder": "1694332345"
+   }
+  ]
+ },
+ {
+  "category": "stalker",
+  "method": "GET",
+  "path": "/stalker/genshin",
+  "alias": "Genshin Impact",
+  "description": "Get Genshin account information",
+  "params": [
+   {
+    "name": "id",
+    "placeholder": "856012067"
+   }
+  ]
+ },
+ {
+  "category": "stalker",
+  "method": "GET",
+  "path": "/stalker/github",
+  "alias": "Github",
+  "description": "Stalker github untuk mencari akun github",
+  "params": [
+   {
+    "name": "username",
+    "placeholder": "MikuHost"
+   }
+  ]
+ },
+ {
+  "category": "stalker",
+  "method": "GET",
+  "path": "/stalker/instagram",
+  "alias": "Instagram",
+  "description": "Get Instagram user profile information and posts",
+  "params": [
+   {
+    "name": "username",
+    "placeholder": "MikuHost"
+   }
+  ]
+ },
+ {
+  "category": "stalker",
+  "method": "GET",
+  "path": "/stalker/mlbb",
+  "alias": "Mobile Legends",
+  "description": "Get Mobile Legends account information",
+  "params": [
+   {
+    "name": "id",
+    "placeholder": "807663005"
+   },
+   {
+    "name": "zone",
+    "placeholder": "12230"
+   }
+  ]
+ },
+ {
+  "category": "stalker",
+  "method": "GET",
+  "path": "/stalker/v1/mlbb",
+  "alias": "Mobile Legends v1",
+  "description": "Get Mobile Legends player information",
+  "params": [
+   {
+    "name": "id",
+    "placeholder": "807663005"
+   },
+   {
+    "name": "zone",
+    "placeholder": "12230"
+   }
+  ]
+ },
+ {
+  "category": "stalker",
+  "method": "GET",
+  "path": "/stalker/v2/mlbb",
+  "alias": "Mobile Legends v2",
+  "description": "Get Mobile Legends account information",
+  "params": [
+   {
+    "name": "id",
+    "placeholder": "807663005"
+   },
+   {
+    "name": "zone",
+    "placeholder": "12230"
+   }
+  ]
+ },
+ {
+  "category": "stalker",
+  "method": "GET",
+  "path": "/stalker/npmjs",
+  "alias": "NPM Package",
+  "description": "Get NPM package information and version details",
+  "params": [
+   {
+    "name": "name",
+    "placeholder": "api-mikuhost"
+   }
+  ]
+ },
+ {
+  "category": "stalker",
+  "method": "GET",
+  "path": "/stalker/pinterest",
+  "alias": "Pinterest",
+  "description": "Get Pinterest user profile information",
+  "params": [
+   {
+    "name": "username",
+    "placeholder": "dims"
+   }
+  ]
+ },
+ {
+  "category": "stalker",
+  "method": "GET",
+  "path": "/stalker/roblox",
+  "alias": "Roblox",
+  "description": "Get complete Roblox user information",
+  "params": [
+   {
+    "name": "username",
+    "placeholder": "Builderman"
+   }
+  ]
+ },
+ {
+  "category": "stalker",
+  "method": "GET",
+  "path": "/stalker/snackvideo",
+  "alias": "SnackVideo",
+  "description": "Get user profile from SnackVideo",
+  "params": [
+   {
+    "name": "username",
+    "placeholder": "AndraGZ"
+   }
+  ]
+ },
+ {
+  "category": "stalker",
+  "method": "GET",
+  "path": "/stalker/threads",
+  "alias": "Threads",
+  "description": "Get Threads user profile information",
+  "params": [
+   {
+    "name": "username",
+    "placeholder": "zuck"
+   }
+  ]
+ },
+ {
+  "category": "stalker",
+  "method": "GET",
+  "path": "/stalker/tiktok",
+  "alias": "TikTok",
+  "description": "Get TikTok user profile information",
+  "params": [
+   {
+    "name": "username",
+    "placeholder": "MikuHost"
+   }
+  ]
+ },
+ {
+  "category": "stalker",
+  "method": "GET",
+  "path": "/stalker/twitter",
+  "alias": "Twitter X",
+  "description": "Get Twitter / X user profile information",
+  "params": [
+   {
+    "name": "username",
+    "placeholder": "ronaldo"
+   }
+  ]
+ },
+ {
+  "category": "stalker",
+  "method": "GET",
+  "path": "/stalker/youtube",
+  "alias": "YouTube",
+  "description": "Stalker youtube untuk mencari akun youtube",
+  "params": [
+   {
+    "name": "username",
+    "placeholder": "MrBeast"
+   }
+  ]
+ },
+ {
+  "category": "textpro",
+  "method": "GET",
+  "path": "/textpro/avengers",
+  "alias": "Avengers",
+  "description": "Membuat text gambar avengers dengan dua teks",
+  "params": [
+   {
+    "name": "text1",
+    "placeholder": "MikuHost"
+   },
+   {
+    "name": "text2",
+    "placeholder": "mikuhost"
+   }
+  ]
+ },
+ {
+  "category": "textpro",
+  "method": "GET",
+  "path": "/textpro/bear",
+  "alias": "Bear",
+  "description": "Membuat efek teks bear style",
+  "params": [
+   {
+    "name": "text",
+    "placeholder": "MikuHost"
+   }
+  ]
+ },
+ {
+  "category": "textpro",
+  "method": "GET",
+  "path": "/textpro/blackpink",
+  "alias": "BlackPink",
+  "description": "Membuat efek teks blackpink style",
+  "params": [
+   {
+    "name": "text",
+    "placeholder": "MikuHost"
+   }
+  ]
+ },
+ {
+  "category": "textpro",
+  "method": "GET",
+  "path": "/textpro/cartoon-graffiti",
+  "alias": "Cartoon Graffiti",
+  "description": "Membuat efek teks cartoon graffiti style",
+  "params": [
+   {
+    "name": "text",
+    "placeholder": "MikuHost"
+   }
+  ]
+ },
+ {
+  "category": "textpro",
+  "method": "GET",
+  "path": "/textpro/comic",
+  "alias": "Comic",
+  "description": "Membuat efek teks comic style",
+  "params": [
+   {
+    "name": "text",
+    "placeholder": "MikuHost"
+   }
+  ]
+ },
+ {
+  "category": "textpro",
+  "method": "GET",
+  "path": "/textpro/devil-wings",
+  "alias": "Devil Wings",
+  "description": "Membuat efek teks devil wings style",
+  "params": [
+   {
+    "name": "text",
+    "placeholder": "MikuHost"
+   }
+  ]
+ },
+ {
+  "category": "textpro",
+  "method": "GET",
+  "path": "/textpro/dragonball",
+  "alias": "Dragon Ball",
+  "description": "Membuat efek teks dragon ball style",
+  "params": [
+   {
+    "name": "text",
+    "placeholder": "MikuHost"
+   }
+  ]
+ },
+ {
+  "category": "textpro",
+  "method": "GET",
+  "path": "/textpro/foggy-glass",
+  "alias": "Foggy Glass",
+  "description": "Membuat efek tulisan tangan di kaca berembun dengan berbagai background",
+  "params": [
+   {
+    "name": "text",
+    "placeholder": "MikuHost"
+   }
+  ]
+ },
+ {
+  "category": "textpro",
+  "method": "GET",
+  "path": "/textpro/glitch",
+  "alias": "Glitch",
+  "description": "Membuat efek teks glitch digital",
+  "params": [
+   {
+    "name": "text",
+    "placeholder": "MikuHost"
+   }
+  ]
+ },
+ {
+  "category": "textpro",
+  "method": "GET",
+  "path": "/textpro/v1/graffiti",
+  "alias": "Graffiti v1",
+  "description": "Membuat text gambar graffiti v1 dengan dua teks",
+  "params": [
+   {
+    "name": "text1",
+    "placeholder": "MikuHost"
+   },
+   {
+    "name": "text2",
+    "placeholder": "mikuhost"
+   }
+  ]
+ },
+ {
+  "category": "textpro",
+  "method": "GET",
+  "path": "/textpro/v5/graffiti",
+  "alias": "Graffiti v5",
+  "description": "Membuat efek teks graffiti v5 style",
+  "params": [
+   {
+    "name": "text",
+    "placeholder": "MikuHost"
+   }
+  ]
+ },
+ {
+  "category": "textpro",
+  "method": "GET",
+  "path": "/textpro/marvel",
+  "alias": "Marvel",
+  "description": "Membuat logo gaya Marvel dengan dua teks dan pilihan background",
+  "params": [
+   {
+    "name": "text1",
+    "placeholder": "MARVEL"
+   },
+   {
+    "name": "text2",
+    "placeholder": "STUDIOS"
+   }
+  ]
+ },
+ {
+  "category": "textpro",
+  "method": "GET",
+  "path": "/textpro/mascot",
+  "alias": "Mascot",
+  "description": "Membuat logo avatar mascot style dengan dua teks dan pilihan 92 style",
+  "params": [
+   {
+    "name": "text1",
+    "placeholder": "Text1"
+   },
+   {
+    "name": "text2",
+    "placeholder": "Text2"
+   }
+  ]
+ },
+ {
+  "category": "textpro",
+  "method": "GET",
+  "path": "/textpro/naruto",
+  "alias": "Naruto",
+  "description": "Membuat efek teks naruto style",
+  "params": [
+   {
+    "name": "text",
+    "placeholder": "MikuHost"
+   }
+  ]
+ },
+ {
+  "category": "textpro",
+  "method": "GET",
+  "path": "/textpro/painting",
+  "alias": "Painting",
+  "description": "Membuat text gambar painting dengan dua teks",
+  "params": [
+   {
+    "name": "text1",
+    "placeholder": "MikuHost"
+   },
+   {
+    "name": "text2",
+    "placeholder": "mikuhost"
+   }
+  ]
+ },
+ {
+  "category": "textpro",
+  "method": "GET",
+  "path": "/textpro/pavement",
+  "alias": "Pavement",
+  "description": "Membuat efek teks pavement tipography",
+  "params": [
+   {
+    "name": "text",
+    "placeholder": "MikuHost"
+   }
+  ]
+ },
+ {
+  "category": "textpro",
+  "method": "GET",
+  "path": "/textpro/pixel-glitch",
+  "alias": "Pixel Glitch",
+  "description": "Membuat efek teks pixel glitch style",
+  "params": [
+   {
+    "name": "text",
+    "placeholder": "MikuHost"
+   }
+  ]
+ },
+ {
+  "category": "textpro",
+  "method": "GET",
+  "path": "/textpro/pornhub",
+  "alias": "Pornhub",
+  "description": "Membuat text gambar pornhub dengan dua teks",
+  "params": [
+   {
+    "name": "text1",
+    "placeholder": "MikuHost"
+   },
+   {
+    "name": "text2",
+    "placeholder": "mikuhost"
+   }
+  ]
+ },
+ {
+  "category": "textpro",
+  "method": "GET",
+  "path": "/textpro/typography",
+  "alias": "Typography",
+  "description": "Membuat efek teks typography style",
+  "params": [
+   {
+    "name": "text",
+    "placeholder": "MikuHost"
+   }
+  ]
+ },
+ {
+  "category": "textpro",
+  "method": "GET",
+  "path": "/textpro/wetglass",
+  "alias": "Wet Glass",
+  "description": "Membuat efek teks wet glass style",
+  "params": [
+   {
+    "name": "text",
+    "placeholder": "MikuHost"
+   }
+  ]
+ },
+ {
+  "category": "textpro",
+  "method": "GET",
+  "path": "/textpro/wolf-galaxy",
+  "alias": "Wolf Galaxy",
+  "description": "Membuat logo avatar wolf galaxy dengan dua teks",
+  "params": [
+   {
+    "name": "text1",
+    "placeholder": "mikuhost"
+   },
+   {
+    "name": "text2",
+    "placeholder": "MikuHost"
+   }
+  ]
+ },
+ {
+  "category": "textpro",
+  "method": "GET",
+  "path": "/textpro/write-graffiti",
+  "alias": "Write Graffiti",
+  "description": "Membuat efek teks write graffiti style",
+  "params": [
+   {
+    "name": "text",
+    "placeholder": "MikuHost"
+   }
+  ]
+ },
+ {
+  "category": "tools",
+  "method": "GET",
+  "path": "/tools/alightmotion",
+  "alias": "Alight-Motion",
+  "description": "Mendapatkan metadata project dari Alight Motion",
+  "params": [
+   {
+    "name": "url",
+    "placeholder": "https://alight.app/u/xxx/p/xxx"
+   }
+  ]
+ },
+ {
+  "category": "tools",
+  "method": "GET",
+  "path": "/tools/blurface",
+  "alias": "Blur-Face",
+  "description": "Membuat blur pada wajah dalam gambar",
+  "params": [
+   {
+    "name": "url",
+    "placeholder": "https://files.catbox.moe/xxx.jpg"
+   }
+  ]
+ },
+ {
+  "category": "tools",
+  "method": "POST",
+  "path": "/tools/bypass/cf",
+  "alias": "Bypass Cloudflare",
+  "description": "Bypass Cloudflare Turnstile untuk mendapatkan token",
+  "params": [
+   {
+    "name": "url",
+    "placeholder": "https://example.com/"
+   },
+   {
+    "name": "siteKey",
+    "placeholder": "0x4AAAAAAAxxx"
+   }
+  ]
+ },
+ {
+  "category": "tools",
+  "method": "GET",
+  "path": "/tools/cekresi",
+  "alias": "Cek Resi",
+  "description": "Check package resi tracking status",
+  "params": [
+   {
+    "name": "noresi",
+    "placeholder": "1234567890"
+   },
+   {
+    "name": "ekspedisi",
+    "placeholder": "jne"
+   }
+  ]
+ },
+ {
+  "category": "tools",
+  "method": "POST",
+  "path": "/tools/codeconvert",
+  "alias": "Code Converter",
+  "description": "Convert between CJS and ESM module formats",
+  "params": [
+   {
+    "name": "file",
+    "placeholder": ""
+   }
+  ]
+ },
+ {
+  "category": "tools",
+  "method": "GET",
+  "path": "/tools/colorize",
+  "alias": "Colorize",
+  "description": "Warnai gambar hitam putih",
+  "params": [
+   {
+    "name": "url",
+    "placeholder": "https://files.catbox.moe/allmenu.jpg"
+   }
+  ]
+ },
+ {
+  "category": "tools",
+  "method": "GET",
+  "path": "/tools/converter",
+  "alias": "Converter",
+  "description": "Konversi WebP ke PNG atau MP4",
+  "params": [
+   {
+    "name": "url",
+    "placeholder": "https://files.catbox.moe/xxx.webp"
+   }
+  ]
+ },
+ {
+  "category": "tools",
+  "method": "GET",
+  "path": "/tools/dewatermark",
+  "alias": "DeWatermark",
+  "description": "Menghapus watermark dari gambar",
+  "params": [
+   {
+    "name": "url",
+    "placeholder": "https://files.catbox.moe/xxx.jpg"
+   }
+  ]
+ },
+ {
+  "category": "tools",
+  "method": "GET",
+  "path": "/tools/v1/dewatermark",
+  "alias": "DeWatermark v1",
+  "description": "Remove watermark from image",
+  "params": [
+   {
+    "name": "url",
+    "placeholder": "https://files.catbox.moe/xxx.jpg"
+   }
+  ]
+ },
+ {
+  "category": "tools",
+  "method": "GET",
+  "path": "/tools/v2/dewatermark",
+  "alias": "DeWatermark v2",
+  "description": "Remove watermark from image",
+  "params": [
+   {
+    "name": "url",
+    "placeholder": "https://files.catbox.moe/xxx.jpg"
+   }
+  ]
+ },
+ {
+  "category": "tools",
+  "method": "GET",
+  "path": "/tools/emojigif",
+  "alias": "Emoji-Gif",
+  "description": "Mengubah emoji menjadi Gif",
+  "params": [
+   {
+    "name": "emoji",
+    "placeholder": "😂"
+   }
+  ]
+ },
+ {
+  "category": "tools",
+  "method": "GET",
+  "path": "/tools/emojimix",
+  "alias": "Emoji-Mix",
+  "description": "Menggabungkan dua emoji menjadi satu gambar",
+  "params": [
+   {
+    "name": "emoji1",
+    "placeholder": "😊"
+   },
+   {
+    "name": "emoji2",
+    "placeholder": "😂"
+   }
+  ]
+ },
+ {
+  "category": "tools",
+  "method": "GET",
+  "path": "/tools/enhancer",
+  "alias": "Enhancer",
+  "description": "Enhance image quality",
+  "params": [
+   {
+    "name": "url",
+    "placeholder": "https://files.catbox.moe/xxx.jpg"
+   }
+  ]
+ },
+ {
+  "category": "tools",
+  "method": "GET",
+  "path": "/tools/v1/enhancer",
+  "alias": "Enhancer v1",
+  "description": "Enhance image quality",
+  "params": [
+   {
+    "name": "url",
+    "placeholder": "https://files.catbox.moe/xxx.jpg"
+   }
+  ]
+ },
+ {
+  "category": "tools",
+  "method": "GET",
+  "path": "/tools/v2/enhancer",
+  "alias": "Enhancer v2",
+  "description": "Enhance image quality",
+  "params": [
+   {
+    "name": "url",
+    "placeholder": "https://files.catbox.moe/xxx.jpg"
+   }
+  ]
+ },
+ {
+  "category": "tools",
+  "method": "GET",
+  "path": "/tools/faceswap",
+  "alias": "Face Swap",
+  "description": "Swap faces between two images",
+  "params": [
+   {
+    "name": "url1",
+    "placeholder": "https://files.catbox.moe/xxx.jpg"
+   },
+   {
+    "name": "url2",
+    "placeholder": "https://files.catbox.moe/xxx.jpg"
+   }
+  ]
+ },
+ {
+  "category": "tools",
+  "method": "GET",
+  "path": "/tools/hdvideo",
+  "alias": "HD Video",
+  "description": "Enhance video quality to HD resolution",
+  "params": [
+   {
+    "name": "url",
+    "placeholder": "https://files.catbox.moe/xxx.mp4"
+   }
+  ]
+ },
+ {
+  "category": "tools",
+  "method": "GET",
+  "path": "/tools/v1/hdvideo",
+  "alias": "HD Video v1",
+  "description": "Upscale video ke resolusi HD, Full HD, 2K, atau 4K",
+  "params": [
+   {
+    "name": "url",
+    "placeholder": "https://files.catbox.moe/xxx.mp4"
+   }
+  ]
+ },
+ {
+  "category": "tools",
+  "method": "GET",
+  "path": "/tools/html2img",
+  "alias": "HTML to Image",
+  "description": "Convert HTML and CSS to image",
+  "params": [
+   {
+    "name": "html",
+    "placeholder": "&lt;div&gt;&lt;h1&gt;Hello World&lt;/h1&gt;&lt;/div&gt;"
+   },
+   {
+    "name": "css",
+    "placeholder": "div { background: blue; } h1 { color: white; }"
+   },
+   {
+    "name": "width",
+    "placeholder": "1200"
+   },
+   {
+    "name": "height",
+    "placeholder": "600"
+   },
+   {
+    "name": "font",
+    "placeholder": "Roboto"
+   }
+  ]
+ },
+ {
+  "category": "tools",
+  "method": "GET",
+  "path": "/tools/image2qr",
+  "alias": "Image To QR",
+  "description": "Convert an image into a QR code pointing to that image",
+  "params": [
+   {
+    "name": "url",
+    "placeholder": "https://files.catbox.moe/xxx.jpg"
+   }
+  ]
+ },
+ {
+  "category": "tools",
+  "method": "GET",
+  "path": "/tools/nikparse",
+  "alias": "NIK Parse",
+  "description": "Parse Nomor Induk Kependudukan (NIK) KTP untuk mendapatkan informasi wilayah, jenis kelamin, tanggal lahir, dan informasi tambahan",
+  "params": [
+   {
+    "name": "nik",
+    "placeholder": "3307110101990001"
+   }
+  ]
+ },
+ {
+  "category": "tools",
+  "method": "GET",
+  "path": "/tools/nsfw-checker",
+  "alias": "NSFW Checker",
+  "description": "Check if image is NSFW or safe",
+  "params": [
+   {
+    "name": "url",
+    "placeholder": "https://files.catbox.moe/xxx.jpg"
+   }
+  ]
+ },
+ {
+  "category": "tools",
+  "method": "GET",
+  "path": "/tools/ocr",
+  "alias": "Ocr-Image",
+  "description": "Mengambil teks dari gambar menggunakan ocr",
+  "params": [
+   {
+    "name": "url",
+    "placeholder": "https://files.catbox.moe/xxx.jpg"
+   }
+  ]
+ },
+ {
+  "category": "tools",
+  "method": "GET",
+  "path": "/tools/remini",
+  "alias": "Remini",
+  "description": "Mengubah gambar agar terlihat lebih jernih dan hd",
+  "params": [
+   {
+    "name": "url",
+    "placeholder": "https://files.catbox.moe/xxx.jpg"
+   }
+  ]
+ },
+ {
+  "category": "tools",
+  "method": "GET",
+  "path": "/tools/removebg",
+  "alias": "Removebg",
+  "description": "Menghapus background dari gambar dengan rapi",
+  "params": [
+   {
+    "name": "url",
+    "placeholder": "https://files.catbox.moe/xxx.jpg"
+   }
+  ]
+ },
+ {
+  "category": "tools",
+  "method": "GET",
+  "path": "/tools/v1/removebg",
+  "alias": "Removebg v1",
+  "description": "Remove background from image",
+  "params": [
+   {
+    "name": "url",
+    "placeholder": "https://files.catbox.moe/xxx.jpg"
+   }
+  ]
+ },
+ {
+  "category": "tools",
+  "method": "GET",
+  "path": "/tools/v2/removebg",
+  "alias": "Removebg v2",
+  "description": "Remove background from image",
+  "params": [
+   {
+    "name": "url",
+    "placeholder": "https://files.catbox.moe/xxx.jpg"
+   }
+  ]
+ },
+ {
+  "category": "tools",
+  "method": "GET",
+  "path": "/tools/removevokal",
+  "alias": "Remove Vocal",
+  "description": "Remove vocal from audio",
+  "params": [
+   {
+    "name": "url",
+    "placeholder": "https://files.catbox.moe/xxx.mp3"
+   }
+  ]
+ },
+ {
+  "category": "tools",
+  "method": "GET",
+  "path": "/tools/skip/adlinksumo",
+  "alias": "Adlinksumo",
+  "description": "Skip Link Adlinksumo",
+  "params": [
+   {
+    "name": "url",
+    "placeholder": "https://adlinksumo.com/Ddq9Fx"
+   }
+  ]
+ },
+ {
+  "category": "tools",
+  "method": "GET",
+  "path": "/tools/spamngl",
+  "alias": "NGL Spam",
+  "description": "Send multiple anonymous messages to a user via NGL (https://ngl.link)",
+  "params": [
+   {
+    "name": "url",
+    "placeholder": "https://ngl.link/username"
+   },
+   {
+    "name": "pesan",
+    "placeholder": "Halo bro..."
+   },
+   {
+    "name": "jumlah",
+    "placeholder": "5"
+   }
+  ]
+ },
+ {
+  "category": "tools",
+  "method": "GET",
+  "path": "/tools/ssweb",
+  "alias": "Website Screenshot",
+  "description": "Capture a screenshot of a given website URL",
+  "params": [
+   {
+    "name": "url",
+    "placeholder": "https://google.com"
+   },
+   {
+    "name": "width",
+    "placeholder": "1080"
+   },
+   {
+    "name": "height",
+    "placeholder": "1920"
+   },
+   {
+    "name": "device_scale",
+    "placeholder": "2"
+   }
+  ]
+ },
+ {
+  "category": "tools",
+  "method": "GET",
+  "path": "/tools/subdomainfinder",
+  "alias": "Subdomain Finder",
+  "description": "Find subdomains for a domain",
+  "params": [
+   {
+    "name": "domain",
+    "placeholder": "google.com"
+   }
+  ]
+ },
+ {
+  "category": "tools",
+  "method": "GET",
+  "path": "/tools/telegram-sticker",
+  "alias": "Telegram Sticker",
+  "description": "Get stickers from Telegram sticker pack",
+  "params": [
+   {
+    "name": "url",
+    "placeholder": "https://t.me/addstickers/xxx"
+   }
+  ]
+ },
+ {
+  "category": "tools",
+  "method": "GET",
+  "path": "/tools/tiktokearnings",
+  "alias": "TikTok Earnings",
+  "description": "Get TikTok user earnings and analytics data",
+  "params": [
+   {
+    "name": "username",
+    "placeholder": "mrbeast"
+   }
+  ]
+ },
+ {
+  "category": "tools",
+  "method": "GET",
+  "path": "/tools/tiktokhashtags",
+  "alias": "TikTok Hashtags",
+  "description": "Get TikTok hashtag analytics and related hashtags",
+  "params": [
+   {
+    "name": "hashtags",
+    "placeholder": "#meme"
+   }
+  ]
+ },
+ {
+  "category": "tools",
+  "method": "GET",
+  "path": "/tools/trackip",
+  "alias": "Track IP",
+  "description": "Mendapatkan informasi IP",
+  "params": [
+   {
+    "name": "target",
+    "placeholder": "google.com"
+   }
+  ]
+ },
+ {
+  "category": "tools",
+  "method": "GET",
+  "path": "/tools/translate",
+  "alias": "Translate",
+  "description": "Menerjemahkan teks ke berbagai bahasa",
+  "params": [
+   {
+    "name": "text",
+    "placeholder": "Halo apa kabar..."
+   },
+   {
+    "name": "lang",
+    "placeholder": "en"
+   }
+  ]
+ },
+ {
+  "category": "tools",
+  "method": "GET",
+  "path": "/tools/tts-google",
+  "alias": "Google TTS",
+  "description": "Convert text to speech using Google TTS",
+  "params": [
+   {
+    "name": "text",
+    "placeholder": "Halo apa kabar..."
+   }
+  ]
+ },
+ {
+  "category": "tools",
+  "method": "GET",
+  "path": "/tools/unblur",
+  "alias": "Unblur Image",
+  "description": "Remove blur from images using AI",
+  "params": [
+   {
+    "name": "url",
+    "placeholder": "https://files.catbox.moe/xxx.jpg"
+   }
+  ]
+ },
+ {
+  "category": "tools",
+  "method": "GET",
+  "path": "/tools/upscale",
+  "alias": "Upscale",
+  "description": "Upscale gambar lebih hd",
+  "params": [
+   {
+    "name": "url",
+    "placeholder": "https://files.catbox.moe/xxx.jpg"
+   }
+  ]
+ },
+ {
+  "category": "tools",
+  "method": "GET",
+  "path": "/tools/v1/upscale",
+  "alias": "Upscale v1",
+  "description": "Upscale image quality using Ihancer",
+  "params": [
+   {
+    "name": "url",
+    "placeholder": "https://files.catbox.moe/xxx.jpg"
+   }
+  ]
+ },
+ {
+  "category": "tools",
+  "method": "GET",
+  "path": "/tools/v2/upscale",
+  "alias": "Upscale v2",
+  "description": "Upscale image quality",
+  "params": [
+   {
+    "name": "url",
+    "placeholder": "https://files.catbox.moe/xxx.jpg"
+   }
+  ]
+ },
+ {
+  "category": "tools",
+  "method": "GET",
+  "path": "/tools/v3/upscale",
+  "alias": "Upscale v3",
+  "description": "Upscale image quality",
+  "params": [
+   {
+    "name": "url",
+    "placeholder": "https://files.catbox.moe/xxx.jpg"
+   }
+  ]
+ },
+ {
+  "category": "tools",
+  "method": "GET",
+  "path": "/tools/v4/upscale",
+  "alias": "Upscale v4",
+  "description": "Upscale image resolution using AI",
+  "params": [
+   {
+    "name": "url",
+    "placeholder": "https://files.catbox.moe/xxx.jpg"
+   }
+  ]
+ },
+ {
+  "category": "tools",
+  "method": "GET",
+  "path": "/tools/v5/upscale",
+  "alias": "Upscale v5",
+  "description": "Upscale image",
+  "params": [
+   {
+    "name": "url",
+    "placeholder": "https://files.catbox.moe/xxx.jpg"
+   }
+  ]
+ },
+ {
+  "category": "tools",
+  "method": "GET",
+  "path": "/tools/usernamegen",
+  "alias": "Username Generator",
+  "description": "Generate usernames based on keywords",
+  "params": [
+   {
+    "name": "name",
+    "placeholder": "MikuHost"
+   }
+  ]
+ },
+ {
+  "category": "tools",
+  "method": "GET",
+  "path": "/tools/vcc",
+  "alias": "VCC Generator",
+  "description": "Generate virtual credit card numbers",
+  "params": []
+ },
+ {
+  "category": "tools",
+  "method": "GET",
+  "path": "/tools/virtual-number",
+  "alias": "Get Virtual Number",
+  "description": "Mendapatkan daftar nomor virtual atau OTP berdasarkan nomor tertentu",
+  "params": [
+   {
+    "name": "number",
+    "placeholder": "58xxx"
+   }
+  ]
+ },
+ {
+  "category": "tools",
+  "method": "GET",
+  "path": "/tools/v1/virtual-number",
+  "alias": "Get Virtual Number v1",
+  "description": "Mendapatkan daftar nomor virtual atau OTP berdasarkan nomor tertentu",
+  "params": [
+   {
+    "name": "country_id",
+    "placeholder": "7"
+   },
+   {
+    "name": "number_id",
+    "placeholder": "651"
+   }
+  ]
+ },
+ {
+  "category": "tools",
+  "method": "GET",
+  "path": "/tools/webphishing",
+  "alias": "Web Phishing",
+  "description": "Cek url website apakah phishing atau tidak",
+  "params": [
+   {
+    "name": "url",
+    "placeholder": "https://example.com"
+   }
+  ]
+ },
+ {
+  "category": "tools",
+  "method": "GET",
+  "path": "/tools/webtozip",
+  "alias": "Web to ZIP",
+  "description": "Convert website to ZIP file",
+  "params": [
+   {
+    "name": "url",
+    "placeholder": "https://example.com"
+   }
+  ]
+ },
+ {
+  "category": "tools",
+  "method": "GET",
+  "path": "/tools/whatsmusic",
+  "alias": "Whats-Music",
+  "description": "Identifikasi musik dari url audio",
+  "params": [
+   {
+    "name": "url",
+    "placeholder": "https://files.catbox.moe/xxx.mp3"
+   }
+  ]
+ },
+ {
+  "category": "tools",
+  "method": "GET",
+  "path": "/tools/wink",
+  "alias": "Wink HDR",
+  "description": "Wink enhance video and image quality to HD resolution",
+  "params": [
+   {
+    "name": "url",
+    "placeholder": "https://files.catbox.moe/xxx.mp4"
+   }
+  ]
+ },
+ {
+  "category": "tools",
+  "method": "GET",
+  "path": "/tools/winrate-mlbb",
+  "alias": "Hitung Winrate MLBB",
+  "description": "Menghitung berapa win streak tanpa kalah untuk mencapai target winrate",
+  "params": [
+   {
+    "name": "total_match",
+    "placeholder": "254"
+   },
+   {
+    "name": "wr_now",
+    "placeholder": "76.4"
+   },
+   {
+    "name": "wr_target",
+    "placeholder": "80"
+   }
+  ]
+ },
+ {
+  "category": "tools",
+  "method": "GET",
+  "path": "/tools/v1/youtube-summarize",
+  "alias": "YouTube Summarize v1",
+  "description": "Summarize YouTube videos",
+  "params": [
+   {
+    "name": "url",
+    "placeholder": "https://youtube.com/xxx"
+   }
+  ]
+ },
+ {
+  "category": "tools",
+  "method": "GET",
+  "path": "/tools/v2/youtube-summarize",
+  "alias": "YouTube Summarize v2",
+  "description": "Summarize YouTube videos",
+  "params": [
+   {
+    "name": "url",
+    "placeholder": "https://youtube.com/xxx"
+   }
+  ]
+ },
+ {
+  "category": "tools",
+  "method": "GET",
+  "path": "/tools/yt-transcribe",
+  "alias": "YouTube Transcribe",
+  "description": "Extract transcript/subtitles from YouTube videos",
+  "params": [
+   {
+    "name": "url",
+    "placeholder": "https://youtu.be/xxxx"
+   }
+  ]
+ },
+ {
+  "category": "uploader",
+  "method": "POST",
+  "path": "/upload",
+  "alias": "MikuHost CDN",
+  "description": "Upload file ke MikuHost CDN",
+  "params": [
+   {
+    "name": "file",
+    "placeholder": ""
+   },
+   {
+    "name": "ttl",
+    "placeholder": "3600"
+   }
+  ]
+ }
+]
